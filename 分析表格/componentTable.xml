@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<ComponentTable>
+<Component componentName="begainalarming_init" lossRate="0.9167*10-5"/>
+<Component componentName="datadeal_init" lossRate="0.9001*10-5"/>
+<Component componentName="temdetec_init" lossRate="0.9308*10-5"/>
+<Component componentName="inputsetting_init" lossRate="0.9007*10-5"/>
+<Component componentName="show_init" lossRate="0.9182*10-5"/>
+<Component componentName="datadeal_init" lossRate="0.9379*10-5"/>
+<Component componentName="feedback_init" lossRate="0.9066*10-5"/>
+<Component componentName="LSP_init" lossRate="0.9070*10-5"/>
+<Component componentName="setTemrange_init" lossRate="0.9139*10-5"/>
+<Component componentName="temadjust_init" lossRate="0.9167*10-5"/>
+</ComponentTable>

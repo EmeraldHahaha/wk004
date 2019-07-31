@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Allocations="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Allocations" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:DeprecatedElements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/DeprecatedElements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Allocations http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/DeprecatedElements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements">
+  <uml:Model xmi:id="_wns_MLB1Eemf0rtk8hEUOg" name="wk004">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_wsmtULB1Eemf0rtk8hEUOg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_wsy6kLB1Eemf0rtk8hEUOg">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-3IKgLDyEemf0rtk8hEUOg" name="isolett_one">
+      <packagedElement xmi:type="uml:Class" xmi:id="_LACdELDzEemf0rtk8hEUOg" name="isolett">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_iRSLQLM-EemcwrjxW_efPQ" name="alarm_init" visibility="public" type="_-Z67ALD7Eemf0rtk8hEUOg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_vHqAwLM-EemcwrjxW_efPQ" name="heatsource_init" visibility="public" type="_Y5R8cLEBEemf0rtk8hEUOg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ycSaQLM-EemcwrjxW_efPQ" name="operate_interface_init" visibility="public" type="_p5GwELEAEemf0rtk8hEUOg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_2yEHsLM-EemcwrjxW_efPQ" name="temperatorsensor_init" visibility="public" type="_Zbl_ULEBEemf0rtk8hEUOg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_6puVwLM-EemcwrjxW_efPQ" name="thermostat_init" visibility="public" type="_sVn10LEAEemf0rtk8hEUOg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_PfALcrNTEemcwrjxW_efPQ" name="alarm_init" type="_7R-5sLD7Eemf0rtk8hEUOg" aggregation="composite" association="_Pe-WQLNTEemcwrjxW_efPQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PfCAoLNTEemcwrjxW_efPQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PfCAobNTEemcwrjxW_efPQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_UbEc0rNTEemcwrjxW_efPQ" name="thermostat_init" type="_Pbqn8LEAEemf0rtk8hEUOg" aggregation="composite" association="_UbCnoLNTEemcwrjxW_efPQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UbGSALNTEemcwrjxW_efPQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UbGSAbNTEemcwrjxW_efPQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_U2qMoLNTEemcwrjxW_efPQ" name="heatsource_init" type="_YjB_oLEBEemf0rtk8hEUOg" aggregation="composite" association="_U2oXcLNTEemcwrjxW_efPQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_U2rawLNTEemcwrjxW_efPQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_U2rawbNTEemcwrjxW_efPQ" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_VRaO8rNTEemcwrjxW_efPQ" name="temperatorsensor_init" type="_ZtfAkLEBEemf0rtk8hEUOg" aggregation="composite" association="_VRYZwLNTEemcwrjxW_efPQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VRa2ALNTEemcwrjxW_efPQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VRa2AbNTEemcwrjxW_efPQ" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Vvdc4rNTEemcwrjxW_efPQ" name="operate_interface_init" type="_PKZ40LEAEemf0rtk8hEUOg" aggregation="composite" association="_VvcOwLNTEemcwrjxW_efPQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VverALNTEemcwrjxW_efPQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VverAbNTEemcwrjxW_efPQ" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_U0BfoLDzEemf0rtk8hEUOg" name="isolett_initImpl">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ZnB9orNOEemcwrjxW_efPQ" name="alarm_init" type="_-Z67ALD7Eemf0rtk8hEUOg" aggregation="composite" association="_ZnAvgLNOEemcwrjxW_efPQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZnDLwLNOEemcwrjxW_efPQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZnDLwbNOEemcwrjxW_efPQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_d94CErNOEemcwrjxW_efPQ" name="heatsource_init" type="_Y5R8cLEBEemf0rtk8hEUOg" aggregation="composite" association="_d92z8LNOEemcwrjxW_efPQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d94pILNOEemcwrjxW_efPQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_d94pIbNOEemcwrjxW_efPQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_fJoqkrNOEemcwrjxW_efPQ" name="temperatorsensor_initimpl" type="_Zbl_ULEBEemf0rtk8hEUOg" aggregation="composite" association="_fJnccLNOEemcwrjxW_efPQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fJpRoLNOEemcwrjxW_efPQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fJpRobNOEemcwrjxW_efPQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_fzuwcrNOEemcwrjxW_efPQ" name="operate_interface_initimpl" type="_p5GwELEAEemf0rtk8hEUOg" aggregation="composite" association="_fztiULNOEemcwrjxW_efPQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fzvXgLNOEemcwrjxW_efPQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fzvXgbNOEemcwrjxW_efPQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_rcva8rNOEemcwrjxW_efPQ" name="thermostat_initimpl" type="_sVn10LEAEemf0rtk8hEUOg" aggregation="composite" association="_rcuz4LNOEemcwrjxW_efPQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rcwCALNOEemcwrjxW_efPQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rcwCAbNOEemcwrjxW_efPQ" value="1"/>
+        </ownedAttribute>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_CIcr8LNREemcwrjxW_efPQ" name="BindingConnector8">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_CIg9YLNREemcwrjxW_efPQ" partWithPort="_rcva8rNOEemcwrjxW_efPQ" role="_9xZtQLLOEemhGK3bf_l7GA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_CIg9YbNREemcwrjxW_efPQ" partWithPort="_d94CErNOEemcwrjxW_efPQ" role="_NCBQQLLSEemhGK3bf_l7GA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_NBTr4LNREemcwrjxW_efPQ" name="BindingConnector9">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NBXWQLNREemcwrjxW_efPQ" partWithPort="_rcva8rNOEemcwrjxW_efPQ" role="_mAGl0LLPEemhGK3bf_l7GA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NBXWQbNREemcwrjxW_efPQ" partWithPort="_fzuwcrNOEemcwrjxW_efPQ" role="_ahbmQLLTEemhGK3bf_l7GA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_bfi3ELNREemcwrjxW_efPQ" name="BindingConnector10">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_bfqL0LNREemcwrjxW_efPQ" partWithPort="_rcva8rNOEemcwrjxW_efPQ" role="_w54y0LLPEemhGK3bf_l7GA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_bfqL0bNREemcwrjxW_efPQ" partWithPort="_fzuwcrNOEemcwrjxW_efPQ" role="_LXvqULLTEemhGK3bf_l7GA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_XHbK0LNSEemcwrjxW_efPQ" name="BindingConnector10">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_XHe1MLNSEemcwrjxW_efPQ" partWithPort="_fJoqkrNOEemcwrjxW_efPQ" role="_NGQpULLNEemhGK3bf_l7GA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_XHfcQLNSEemcwrjxW_efPQ" partWithPort="_rcva8rNOEemcwrjxW_efPQ" role="_u3HfQLLOEemhGK3bf_l7GA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_Zok48LNSEemcwrjxW_efPQ" name="Block10">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_ZomuILNSEemcwrjxW_efPQ" partWithPort="_fJoqkrNOEemcwrjxW_efPQ" role="_NGQpULLNEemhGK3bf_l7GA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_ZonVMLNSEemcwrjxW_efPQ" partWithPort="_ZnB9orNOEemcwrjxW_efPQ" role="_OiZe4LLHEemhGK3bf_l7GA"/>
+        </ownedConnector>
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_M_Hr0LNXEemcwrjxW_efPQ" name="isolett_ac" node="_M_Hr7LNXEemcwrjxW_efPQ _M_Hr7bNXEemcwrjxW_efPQ _M_Hr7rNXEemcwrjxW_efPQ _M_Hr77NXEemcwrjxW_efPQ _M_Hr8rNXEemcwrjxW_efPQ _M_Hr87NXEemcwrjxW_efPQ _M_Hr9LNXEemcwrjxW_efPQ _M_Hr9bNXEemcwrjxW_efPQ _M_Hr9rNXEemcwrjxW_efPQ _M_Hr97NXEemcwrjxW_efPQ _M_Hr-rNXEemcwrjxW_efPQ _M_Hr-7NXEemcwrjxW_efPQ _M_Hr_LNXEemcwrjxW_efPQ _M_Hr_bNXEemcwrjxW_efPQ _M_Hr_rNXEemcwrjxW_efPQ _M_HsArNXEemcwrjxW_efPQ _M_HsA7NXEemcwrjxW_efPQ _M_HsBLNXEemcwrjxW_efPQ _M_HsBbNXEemcwrjxW_efPQ">
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_M_Hr0bNXEemcwrjxW_efPQ" name="Constraint16">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_M_Hr0rNXEemcwrjxW_efPQ" name="constraintSpec">
+              <language>OCL</language>
+              <body>true</body>
+            </specification>
+          </ownedRule>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr07NXEemcwrjxW_efPQ" target="_M_HsA7NXEemcwrjxW_efPQ" source="_M_Hr7LNXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr1LNXEemcwrjxW_efPQ" target="_M_HsBLNXEemcwrjxW_efPQ" source="_M_Hr77NXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr1bNXEemcwrjxW_efPQ" target="_M_Hr9rNXEemcwrjxW_efPQ" source="_M_Hr87NXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr1rNXEemcwrjxW_efPQ" target="_M_Hr9bNXEemcwrjxW_efPQ" source="_M_Hr8rNXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr17NXEemcwrjxW_efPQ" target="_M_Hr8LNXEemcwrjxW_efPQ" source="_M_Hr9bNXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr2LNXEemcwrjxW_efPQ" target="_M_Hr9LNXEemcwrjxW_efPQ" source="_M_Hr9rNXEemcwrjxW_efPQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_M_Hr2bNXEemcwrjxW_efPQ" name="超过正常值" value="true"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr2rNXEemcwrjxW_efPQ" target="_M_Hr8rNXEemcwrjxW_efPQ" source="_M_Hr7rNXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr27NXEemcwrjxW_efPQ" target="_M_Hr-LNXEemcwrjxW_efPQ" source="_M_Hr9bNXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr3LNXEemcwrjxW_efPQ" target="_M_Hr_bNXEemcwrjxW_efPQ" source="_M_Hr97NXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr3bNXEemcwrjxW_efPQ" target="_M_Hr_LNXEemcwrjxW_efPQ" source="_M_Hr-7NXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr3rNXEemcwrjxW_efPQ" target="_M_Hr_bNXEemcwrjxW_efPQ" source="_M_Hr_LNXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr37NXEemcwrjxW_efPQ" target="_M_Hr-rNXEemcwrjxW_efPQ" source="_M_Hr_bNXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr4LNXEemcwrjxW_efPQ" target="_M_Hr_7NXEemcwrjxW_efPQ" source="_M_Hr-rNXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr4bNXEemcwrjxW_efPQ" target="_M_Hr7bNXEemcwrjxW_efPQ" source="_M_Hr_rNXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr4rNXEemcwrjxW_efPQ" target="_M_HsArNXEemcwrjxW_efPQ" source="_M_Hr9rNXEemcwrjxW_efPQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_M_Hr47NXEemcwrjxW_efPQ" name="超过正常值"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr5LNXEemcwrjxW_efPQ" target="_M_Hr7bNXEemcwrjxW_efPQ" source="_M_Hr9LNXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr5bNXEemcwrjxW_efPQ" target="_M_Hr7rNXEemcwrjxW_efPQ" source="_M_HsA7NXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr5rNXEemcwrjxW_efPQ" target="_M_Hr-7NXEemcwrjxW_efPQ" source="_M_HsA7NXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr57NXEemcwrjxW_efPQ" target="_M_Hr87NXEemcwrjxW_efPQ" source="_M_HsBLNXEemcwrjxW_efPQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_M_Hr6LNXEemcwrjxW_efPQ" name="数据验证异常"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr6bNXEemcwrjxW_efPQ" target="_M_HsBbNXEemcwrjxW_efPQ" source="_M_HsBLNXEemcwrjxW_efPQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_M_Hr6rNXEemcwrjxW_efPQ" name="数据验证异常" value="true"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr67NXEemcwrjxW_efPQ" target="_M_HsArNXEemcwrjxW_efPQ" source="_M_HsBbNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_M_Hr7LNXEemcwrjxW_efPQ" name="InitialNode1" outgoing="_M_Hr07NXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_M_Hr7bNXEemcwrjxW_efPQ" name="ActivityFinalNode3" incoming="_M_Hr4bNXEemcwrjxW_efPQ _M_Hr5LNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr7rNXEemcwrjxW_efPQ" name="检测环境温度" incoming="_M_Hr5bNXEemcwrjxW_efPQ" outgoing="_M_Hr2rNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr77NXEemcwrjxW_efPQ" name="datadeal" outgoing="_M_Hr1LNXEemcwrjxW_efPQ">
+            <inputValue xmi:type="uml:InputPin" xmi:id="_M_Hr8LNXEemcwrjxW_efPQ" name="InputPin1" incoming="_M_Hr17NXEemcwrjxW_efPQ">
+              <upperBound xmi:type="uml:LiteralInteger" xmi:id="_M_Hr8bNXEemcwrjxW_efPQ" value="1"/>
+            </inputValue>
+          </node>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_M_Hr8rNXEemcwrjxW_efPQ" name="接收环境温度" incoming="_M_Hr2rNXEemcwrjxW_efPQ" outgoing="_M_Hr1rNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr87NXEemcwrjxW_efPQ" name="temdetec" incoming="_M_Hr57NXEemcwrjxW_efPQ" outgoing="_M_Hr1bNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr9LNXEemcwrjxW_efPQ" name="begainalarming" incoming="_M_Hr2LNXEemcwrjxW_efPQ" outgoing="_M_Hr5LNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:ForkNode" xmi:id="_M_Hr9bNXEemcwrjxW_efPQ" name="ForkNode11" incoming="_M_Hr1rNXEemcwrjxW_efPQ" outgoing="_M_Hr17NXEemcwrjxW_efPQ _M_Hr27NXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_M_Hr9rNXEemcwrjxW_efPQ" name="超过正常值" incoming="_M_Hr1bNXEemcwrjxW_efPQ" outgoing="_M_Hr2LNXEemcwrjxW_efPQ _M_Hr4rNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr97NXEemcwrjxW_efPQ" name="datadeal" outgoing="_M_Hr3LNXEemcwrjxW_efPQ">
+            <inputValue xmi:type="uml:InputPin" xmi:id="_M_Hr-LNXEemcwrjxW_efPQ" name="InputPin1" incoming="_M_Hr27NXEemcwrjxW_efPQ">
+              <upperBound xmi:type="uml:LiteralInteger" xmi:id="_M_Hr-bNXEemcwrjxW_efPQ" value="1"/>
+            </inputValue>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr-rNXEemcwrjxW_efPQ" name="temdetec" incoming="_M_Hr37NXEemcwrjxW_efPQ" outgoing="_M_Hr4LNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr-7NXEemcwrjxW_efPQ" name="set_operator" incoming="_M_Hr5rNXEemcwrjxW_efPQ" outgoing="_M_Hr3bNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_M_Hr_LNXEemcwrjxW_efPQ" name="operator_setting" incoming="_M_Hr3bNXEemcwrjxW_efPQ" outgoing="_M_Hr3rNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:JoinNode" xmi:id="_M_Hr_bNXEemcwrjxW_efPQ" name="JoinNode27" incoming="_M_Hr3LNXEemcwrjxW_efPQ _M_Hr3rNXEemcwrjxW_efPQ" outgoing="_M_Hr37NXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:SendSignalAction" xmi:id="_M_Hr_rNXEemcwrjxW_efPQ" name="heating" outgoing="_M_Hr4bNXEemcwrjxW_efPQ">
+            <target xmi:type="uml:InputPin" xmi:id="_M_Hr_7NXEemcwrjxW_efPQ" name="target" incoming="_M_Hr4LNXEemcwrjxW_efPQ">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M_HsALNXEemcwrjxW_efPQ" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M_HsAbNXEemcwrjxW_efPQ" value="1"/>
+            </target>
+          </node>
+          <node xmi:type="uml:FlowFinalNode" xmi:id="_M_HsArNXEemcwrjxW_efPQ" name="FlowFinalNode31" incoming="_M_Hr4rNXEemcwrjxW_efPQ _M_Hr67NXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:JoinNode" xmi:id="_M_HsA7NXEemcwrjxW_efPQ" name="JoinNode34" incoming="_M_Hr07NXEemcwrjxW_efPQ" outgoing="_M_Hr5bNXEemcwrjxW_efPQ _M_Hr5rNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_M_HsBLNXEemcwrjxW_efPQ" name="数据验证异常" incoming="_M_Hr1LNXEemcwrjxW_efPQ" outgoing="_M_Hr57NXEemcwrjxW_efPQ _M_Hr6bNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_HsBbNXEemcwrjxW_efPQ" name="数据异常处理" incoming="_M_Hr6bNXEemcwrjxW_efPQ" outgoing="_M_Hr67NXEemcwrjxW_efPQ"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_688EULNMEemcwrjxW_efPQ" name="isolett_initRealization" client="_U0BfoLDzEemf0rtk8hEUOg" supplier="_LACdELDzEemf0rtk8hEUOg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_N1H6MLD7Eemf0rtk8hEUOg" name="alarm_init">
+      <packagedElement xmi:type="uml:Class" xmi:id="_-Z67ALD7Eemf0rtk8hEUOg" name="alarm_initImpl">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_OMRIwLLFEemhGK3bf_l7GA" name="begainalarming_initImpl" type="_MviF8LENEemf0rtk8hEUOg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_PcgooLLFEemhGK3bf_l7GA" name="datadeal_initImpl" type="_kLMfILENEemf0rtk8hEUOg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_QKX0MLLFEemhGK3bf_l7GA" name="temdetec_initImpl" type="_rhR74LENEemf0rtk8hEUOg"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_OiZe4LLHEemhGK3bf_l7GA" name="currentTemDigital" visibility="public" type="_HYTaQLLIEemhGK3bf_l7GA" aggregation="composite"/>
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_fMWGsLNWEemcwrjxW_efPQ" name="Activity10" node="_fMWGxrNWEemcwrjxW_efPQ _fMWGx7NWEemcwrjxW_efPQ _fMWGyLNWEemcwrjxW_efPQ _fMWGy7NWEemcwrjxW_efPQ _fMWGzLNWEemcwrjxW_efPQ _fMWGzbNWEemcwrjxW_efPQ _fMWGzrNWEemcwrjxW_efPQ _fMWGz7NWEemcwrjxW_efPQ _fMWG0LNWEemcwrjxW_efPQ">
+          <ownedBehavior xmi:type="uml:FunctionBehavior" xmi:id="_fMWGsbNWEemcwrjxW_efPQ" name="FunctionBehavior4"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGsrNWEemcwrjxW_efPQ" name="数据验证"/>
+          <ownedBehavior xmi:type="uml:Interaction" xmi:id="_fMWGs7NWEemcwrjxW_efPQ" name="Interaction10"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGtLNWEemcwrjxW_efPQ" name="数据无效故障处理"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGtbNWEemcwrjxW_efPQ" name="OpaqueBehavior13"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGtrNWEemcwrjxW_efPQ" name="OpaqueBehavior15"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGt7NWEemcwrjxW_efPQ" name="OpaqueBehavior17"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGuLNWEemcwrjxW_efPQ" name="OpaqueBehavior18"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGubNWEemcwrjxW_efPQ" name="OpaqueBehavior19"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGurNWEemcwrjxW_efPQ" name="OpaqueBehavior20"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGu7NWEemcwrjxW_efPQ" name="OpaqueBehavior21"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGvLNWEemcwrjxW_efPQ" name="OpaqueBehavior22"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGvbNWEemcwrjxW_efPQ" target="_fMWGx7NWEemcwrjxW_efPQ" source="_fMWGxrNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGvrNWEemcwrjxW_efPQ" target="_fMWGybNWEemcwrjxW_efPQ" source="_fMWGx7NWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGv7NWEemcwrjxW_efPQ" target="_fMWGy7NWEemcwrjxW_efPQ" source="_fMWGyLNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGwLNWEemcwrjxW_efPQ" target="_fMWGzLNWEemcwrjxW_efPQ" source="_fMWGy7NWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGwbNWEemcwrjxW_efPQ" target="_fMWGzbNWEemcwrjxW_efPQ" source="_fMWGy7NWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGwrNWEemcwrjxW_efPQ" target="_fMWGzrNWEemcwrjxW_efPQ" source="_fMWGzbNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGw7NWEemcwrjxW_efPQ" target="_fMWGz7NWEemcwrjxW_efPQ" source="_fMWGzrNWEemcwrjxW_efPQ">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_fMWGxLNWEemcwrjxW_efPQ" name="currentTem超过正常值" body="">
+              <type xmi:type="uml:DataType" href="../wk003/wk003.uml#_tGpwQIgmEem7TYMKJXdmUw"/>
+              <language>Natural language</language>
+            </guard>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGxbNWEemcwrjxW_efPQ" target="_fMWG0LNWEemcwrjxW_efPQ" source="_fMWGz7NWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_fMWGxrNWEemcwrjxW_efPQ" name="InitialNode1" outgoing="_fMWGvbNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_fMWGx7NWEemcwrjxW_efPQ" name="接收温度信号" incoming="_fMWGvbNWEemcwrjxW_efPQ" outgoing="_fMWGvrNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_fMWGyLNWEemcwrjxW_efPQ" name="接收验证" outgoing="_fMWGv7NWEemcwrjxW_efPQ" behavior="_fMWGsrNWEemcwrjxW_efPQ">
+            <argument xmi:type="uml:InputPin" xmi:id="_fMWGybNWEemcwrjxW_efPQ" name="InputPin1" incoming="_fMWGvrNWEemcwrjxW_efPQ">
+              <upperBound xmi:type="uml:LiteralInteger" xmi:id="_fMWGyrNWEemcwrjxW_efPQ" value="1"/>
+            </argument>
+          </node>
+          <node xmi:type="uml:DecisionNode" xmi:id="_fMWGy7NWEemcwrjxW_efPQ" name="" incoming="_fMWGv7NWEemcwrjxW_efPQ" outgoing="_fMWGwLNWEemcwrjxW_efPQ _fMWGwbNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_fMWGzLNWEemcwrjxW_efPQ" name="数据无效故障处理" incoming="_fMWGwLNWEemcwrjxW_efPQ" behavior="_fMWGtLNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_fMWGzbNWEemcwrjxW_efPQ" name="数据格式化" incoming="_fMWGwbNWEemcwrjxW_efPQ" outgoing="_fMWGwrNWEemcwrjxW_efPQ" behavior="_fMWGtbNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_fMWGzrNWEemcwrjxW_efPQ" name="温度检测" incoming="_fMWGwrNWEemcwrjxW_efPQ" outgoing="_fMWGw7NWEemcwrjxW_efPQ" behavior="_fMWGtrNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_fMWGz7NWEemcwrjxW_efPQ" name="发出警报" incoming="_fMWGw7NWEemcwrjxW_efPQ" outgoing="_fMWGxbNWEemcwrjxW_efPQ" behavior="_fMWGt7NWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_fMWG0LNWEemcwrjxW_efPQ" name="ActivityFinalNode28" incoming="_fMWGxbNWEemcwrjxW_efPQ"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_XVaV8LEBEemf0rtk8hEUOg" name="alarm_initRealization" client="_-Z67ALD7Eemf0rtk8hEUOg" supplier="_7R-5sLD7Eemf0rtk8hEUOg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7R-5sLD7Eemf0rtk8hEUOg" name="alarm_init">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_49gcALEDEemf0rtk8hEUOg" name="datadeal_init"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_yoQKILEDEemf0rtk8hEUOg" name="temdetect_init"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_5TvxwLEDEemf0rtk8hEUOg" name="begainalarming_init"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_HpL3MLENEemf0rtk8hEUOg" name="begainalarming_init">
+        <packagedElement xmi:type="uml:Class" xmi:id="_MviF8LENEemf0rtk8hEUOg" name="begainalarming_initImpl">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_yrRYQLLMEemhGK3bf_l7GA" name="ringringSignal" type="_m2lpQLLMEemhGK3bf_l7GA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_3jY9wLLMEemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA">
+            <defaultValue xmi:type="uml:LiteralReal" xmi:id="_7TOFgLLMEemhGK3bf_l7GA" value="1.0"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_qeCiALLVEemhGK3bf_l7GA" name="begainalarming_initRealization" client="_MviF8LENEemf0rtk8hEUOg" supplier="_5TvxwLEDEemf0rtk8hEUOg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_aonVoLENEemf0rtk8hEUOg" name="temdetec_init">
+        <packagedElement xmi:type="uml:Class" xmi:id="_rhR74LENEemf0rtk8hEUOg" name="temdetec_initImpl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_r2gVULLLEemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA">
+            <defaultValue xmi:type="uml:LiteralReal" xmi:id="_vto-8LLLEemhGK3bf_l7GA" value="2.0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_021GULLLEemhGK3bf_l7GA" name="componentType" type="_BM_xwLLMEemhGK3bf_l7GA"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_QKpc0LLMEemhGK3bf_l7GA" name="currentTemData" visibility="public" type="_5CofwLLIEemhGK3bf_l7GA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_rD6lULLMEemhGK3bf_l7GA" name="ringringSignal" visibility="public" type="_m2lpQLLMEemhGK3bf_l7GA" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_SeDeULLWEemhGK3bf_l7GA" name="temdetec_initRealization" client="_rhR74LENEemf0rtk8hEUOg" supplier="_yoQKILEDEemf0rtk8hEUOg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_cw2NcLENEemf0rtk8hEUOg" name="datadeal_init">
+        <packagedElement xmi:type="uml:Class" xmi:id="_kLMfILENEemf0rtk8hEUOg" name="datadeal_initImpl">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_fkZK0LLIEemhGK3bf_l7GA" name="currentTemDigital" visibility="public" type="_HYTaQLLIEemhGK3bf_l7GA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_ySgPwLLIEemhGK3bf_l7GA" name="currentTemData" visibility="public" type="_5CofwLLIEemhGK3bf_l7GA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_S7znwLLKEemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA">
+            <defaultValue xmi:type="uml:LiteralReal" xmi:id="_jVOGMLLKEemhGK3bf_l7GA" value="2.0"/>
+          </ownedAttribute>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_Y0QeULLJEemhGK3bf_l7GA" name="dataChecked" concurrency="guarded">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_vOYFgLLKEemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA" direction="out">
+              <defaultValue xmi:type="uml:LiteralReal" xmi:id="_vOYFgbLKEemhGK3bf_l7GA" value="1.0"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_3bK9QLLJEemhGK3bf_l7GA" name="dataFormat">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_7Nj0ULLKEemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA" direction="out">
+              <defaultValue xmi:type="uml:LiteralReal" xmi:id="_7Nj0UbLKEemhGK3bf_l7GA" value="1.0"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_697SULLJEemhGK3bf_l7GA" name="dataInvalidDeal"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_JbsF8LLWEemhGK3bf_l7GA" name="datadeal_initRealization" client="_kLMfILENEemf0rtk8hEUOg" supplier="_49gcALEDEemf0rtk8hEUOg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_XMTsALD7Eemf0rtk8hEUOg" name="heatsource_init">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Y5R8cLEBEemf0rtk8hEUOg" name="heatsource_initImpl">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_NCBQQLLSEemhGK3bf_l7GA" name="heatingSignal" type="_KKP5QLLPEemhGK3bf_l7GA" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_IehkwLECEemf0rtk8hEUOg" name="heatsource_initRealization" client="_Y5R8cLEBEemf0rtk8hEUOg" supplier="_YjB_oLEBEemf0rtk8hEUOg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_YjB_oLEBEemf0rtk8hEUOg" name="heatsource_init"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_QKw74LD7Eemf0rtk8hEUOg" name="operate_interface_init">
+      <packagedElement xmi:type="uml:Class" xmi:id="_PKZ40LEAEemf0rtk8hEUOg" name="operate_interface_init">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_2v4xELEHEemf0rtk8hEUOg" name="show_init"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_2dyUcLEHEemf0rtk8hEUOg" name="inputsetting_init"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_p5GwELEAEemf0rtk8hEUOg" name="operate_interface_initImpl">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_AmxbELLTEemhGK3bf_l7GA" name="inputsetting_initImpl" type="_ve7JULLSEemhGK3bf_l7GA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_BL8ksLLTEemhGK3bf_l7GA" name="show_initImpl" type="_yxyoQLLSEemhGK3bf_l7GA"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_LXvqULLTEemhGK3bf_l7GA" name="feedbackSiganl" visibility="public" type="_W7qWQLLPEemhGK3bf_l7GA" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_ahbmQLLTEemhGK3bf_l7GA" name="operatorSettingData" type="_iDj3wLLPEemhGK3bf_l7GA" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NI4bULLUEemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA">
+          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_PWRf8LLUEemhGK3bf_l7GA" value="2.0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_QVTeILNPEemcwrjxW_efPQ" name="operatorFeedbackSignalOut" visibility="public" type="_pxi6ULLTEemhGK3bf_l7GA" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_h5oQgLNPEemcwrjxW_efPQ" name="operatorsettingSignaOut" type="_8UTq4LLTEemhGK3bf_l7GA" aggregation="composite"/>
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_ptGIoLNWEemcwrjxW_efPQ" name="operator_interface_ac" node="_ptGIqbNWEemcwrjxW_efPQ _ptGIqrNWEemcwrjxW_efPQ _ptGIq7NWEemcwrjxW_efPQ _ptGIrLNWEemcwrjxW_efPQ _ptGIsLNWEemcwrjxW_efPQ _ptGIsbNWEemcwrjxW_efPQ _ptGIsrNWEemcwrjxW_efPQ _ptGIs7NWEemcwrjxW_efPQ">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ptGIobNWEemcwrjxW_efPQ" target="_ptGIs7NWEemcwrjxW_efPQ" source="_ptGIqbNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ptGIorNWEemcwrjxW_efPQ" target="_ptGIq7NWEemcwrjxW_efPQ" source="_ptGIqrNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ptGIo7NWEemcwrjxW_efPQ" target="_ptGIrbNWEemcwrjxW_efPQ" source="_ptGIq7NWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ptGIpLNWEemcwrjxW_efPQ" target="_ptGIsbNWEemcwrjxW_efPQ" source="_ptGIrLNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ptGIpbNWEemcwrjxW_efPQ" target="_ptGIsLNWEemcwrjxW_efPQ" source="_ptGIsrNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ptGIprNWEemcwrjxW_efPQ" target="_ptGIsbNWEemcwrjxW_efPQ" source="_ptGIsLNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ptGIp7NWEemcwrjxW_efPQ" target="_ptGIqrNWEemcwrjxW_efPQ" source="_ptGIs7NWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ptGIqLNWEemcwrjxW_efPQ" target="_ptGIsrNWEemcwrjxW_efPQ" source="_ptGIs7NWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_ptGIqbNWEemcwrjxW_efPQ" name="InitialNode1" outgoing="_ptGIobNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_ptGIqrNWEemcwrjxW_efPQ" name="接收输入" incoming="_ptGIp7NWEemcwrjxW_efPQ" outgoing="_ptGIorNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_ptGIq7NWEemcwrjxW_efPQ" name="输入处理" incoming="_ptGIorNWEemcwrjxW_efPQ" outgoing="_ptGIo7NWEemcwrjxW_efPQ">
+            <behavior xmi:type="uml:OpaqueBehavior" href="../wk003/wk003.uml#_ngB1MLKHEemoNLpX2qMFxQ"/>
+          </node>
+          <node xmi:type="uml:SendSignalAction" xmi:id="_ptGIrLNWEemcwrjxW_efPQ" name="发送设置温度范围" outgoing="_ptGIpLNWEemcwrjxW_efPQ">
+            <signal xmi:type="uml:Signal" href="../wk003/wk003.uml#_pl-OALKHEemoNLpX2qMFxQ"/>
+            <target xmi:type="uml:InputPin" xmi:id="_ptGIrbNWEemcwrjxW_efPQ" name="target" incoming="_ptGIo7NWEemcwrjxW_efPQ">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ptGIrrNWEemcwrjxW_efPQ" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ptGIr7NWEemcwrjxW_efPQ" value="1"/>
+            </target>
+          </node>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_ptGIsLNWEemcwrjxW_efPQ" name="显示" incoming="_ptGIpbNWEemcwrjxW_efPQ" outgoing="_ptGIprNWEemcwrjxW_efPQ">
+            <behavior xmi:type="uml:OpaqueBehavior" href="../wk003/wk003.uml#_wIFQILKHEemoNLpX2qMFxQ"/>
+          </node>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_ptGIsbNWEemcwrjxW_efPQ" name="ActivityFinalNode9" incoming="_ptGIpLNWEemcwrjxW_efPQ _ptGIprNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_ptGIsrNWEemcwrjxW_efPQ" name="接收反馈" incoming="_ptGIqLNWEemcwrjxW_efPQ" outgoing="_ptGIpbNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:ForkNode" xmi:id="_ptGIs7NWEemcwrjxW_efPQ" name="ForkNode14" incoming="_ptGIobNWEemcwrjxW_efPQ" outgoing="_ptGIp7NWEemcwrjxW_efPQ _ptGIqLNWEemcwrjxW_efPQ"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_l4YF0LLSEemhGK3bf_l7GA" name="inputsetting_init">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ve7JULLSEemhGK3bf_l7GA" name="inputsetting_initImpl"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_ohynYLM7EemcwrjxW_efPQ" name="inputsetting_init_Realization" client="_ve7JULLSEemhGK3bf_l7GA" supplier="_2dyUcLEHEemf0rtk8hEUOg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_qgQP4LLSEemhGK3bf_l7GA" name="show_init">
+        <packagedElement xmi:type="uml:Class" xmi:id="_yxyoQLLSEemhGK3bf_l7GA" name="show_initImpl"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_v7D7ALM7EemcwrjxW_efPQ" name="show_init_Realization" client="_yxyoQLLSEemhGK3bf_l7GA" supplier="_2v4xELEHEemf0rtk8hEUOg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_VrcHcLEBEemf0rtk8hEUOg" name="operator_interface_initRealization" client="_p5GwELEAEemf0rtk8hEUOg" supplier="_PKZ40LEAEemf0rtk8hEUOg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cCbtcLD7Eemf0rtk8hEUOg" name="temperatorsensor_init">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZtfAkLEBEemf0rtk8hEUOg" name="temperatorsensor_init"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_JSnUILECEemf0rtk8hEUOg" name="temperatorsensor_initRealization" client="_ZtfAkLEBEemf0rtk8hEUOg" supplier="_Zbl_ULEBEemf0rtk8hEUOg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Zbl_ULEBEemf0rtk8hEUOg" name="temperatorsensor_initImpl">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_KYSAILLNEemhGK3bf_l7GA" name="lSPprocessor_init" type="_asL1wLEHEemf0rtk8hEUOg"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_NGQpULLNEemhGK3bf_l7GA" name="currentTemDigital" visibility="public" type="_HYTaQLLIEemhGK3bf_l7GA" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_UmdrYLLNEemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA">
+          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_XLWC8LLNEemhGK3bf_l7GA" value="1.0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_YxL_YLLNEemhGK3bf_l7GA" name="period" visibility="public" type="_ZnDXwLLKEemhGK3bf_l7GA">
+          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_b6pDoLLNEemhGK3bf_l7GA" value="5.0"/>
+        </ownedAttribute>
+        <nestedClassifier xmi:type="uml:Device" xmi:id="_asL1wLEHEemf0rtk8hEUOg" name="LSPprocessor_init"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_TUcCkLD7Eemf0rtk8hEUOg" name="thermostat_init">
+      <packagedElement xmi:type="uml:Class" xmi:id="_sVn10LEAEemf0rtk8hEUOg" name="thermostat_initImpl">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_AlrWQLLQEemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA">
+          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_Db_cELLQEemhGK3bf_l7GA" value="2.0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_nfmfILLOEemhGK3bf_l7GA" name="temadjust_init" type="_EygCILEGEemf0rtk8hEUOg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_m_jtILLOEemhGK3bf_l7GA" name="setTemrange_init" type="_EXEDULEGEemf0rtk8hEUOg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_md2HMLLOEemhGK3bf_l7GA" name="feedback_init" type="_Fi5kULEGEemf0rtk8hEUOg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_l-U5oLLOEemhGK3bf_l7GA" name="datadeal_init" type="_FKE0oLEGEemf0rtk8hEUOg"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_mAGl0LLPEemhGK3bf_l7GA" name="operatorSettingData" visibility="public" type="_iDj3wLLPEemhGK3bf_l7GA" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_9xZtQLLOEemhGK3bf_l7GA" name="heatingSignal" visibility="public" type="_KKP5QLLPEemhGK3bf_l7GA" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_w54y0LLPEemhGK3bf_l7GA" name="feedbackSignal" visibility="public" type="_W7qWQLLPEemhGK3bf_l7GA" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_u3HfQLLOEemhGK3bf_l7GA" name="currentTemDigital" type="_HYTaQLLIEemhGK3bf_l7GA" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_OnpusLM9EemcwrjxW_efPQ" name="lSP_init" type="__NAoQLLREemhGK3bf_l7GA"/>
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_x9i74LNWEemcwrjxW_efPQ" name="thermostat" node="_x9i777NWEemcwrjxW_efPQ _x9i78LNWEemcwrjxW_efPQ _x9i78bNWEemcwrjxW_efPQ _x9i78rNWEemcwrjxW_efPQ _x9i787NWEemcwrjxW_efPQ _x9i79LNWEemcwrjxW_efPQ _x9i79bNWEemcwrjxW_efPQ _x9i79rNWEemcwrjxW_efPQ _x9i797NWEemcwrjxW_efPQ _x9i7-LNWEemcwrjxW_efPQ _x9i7-bNWEemcwrjxW_efPQ _x9i7_bNWEemcwrjxW_efPQ">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i74bNWEemcwrjxW_efPQ" target="_x9i78LNWEemcwrjxW_efPQ" source="_x9i78rNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i74rNWEemcwrjxW_efPQ" target="_x9i78bNWEemcwrjxW_efPQ" source="_x9i78rNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i747NWEemcwrjxW_efPQ" target="_x9i78rNWEemcwrjxW_efPQ" source="_x9i777NWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i75LNWEemcwrjxW_efPQ" target="_x9i79rNWEemcwrjxW_efPQ" source="_x9i787NWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i75bNWEemcwrjxW_efPQ" target="_x9i787NWEemcwrjxW_efPQ" source="_x9i78LNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i75rNWEemcwrjxW_efPQ" target="_x9i79LNWEemcwrjxW_efPQ" source="_x9i79rNWEemcwrjxW_efPQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_x9i757NWEemcwrjxW_efPQ" name="checked"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i76LNWEemcwrjxW_efPQ" target="_x9i79bNWEemcwrjxW_efPQ" source="_x9i79rNWEemcwrjxW_efPQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_x9i76bNWEemcwrjxW_efPQ" name="checked" value="true"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i76rNWEemcwrjxW_efPQ" target="_x9i7-LNWEemcwrjxW_efPQ" source="_x9i79bNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i767NWEemcwrjxW_efPQ" target="_x9i7-LNWEemcwrjxW_efPQ" source="_x9i78bNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i77LNWEemcwrjxW_efPQ" target="_x9i797NWEemcwrjxW_efPQ" source="_x9i7-LNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i77bNWEemcwrjxW_efPQ" target="_x9i7-bNWEemcwrjxW_efPQ" source="_x9i797NWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i77rNWEemcwrjxW_efPQ" target="_x9i7_bNWEemcwrjxW_efPQ" source="_x9i7-bNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_x9i777NWEemcwrjxW_efPQ" name="InitialNode1" outgoing="_x9i747NWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_x9i78LNWEemcwrjxW_efPQ" name="接收当前温度" incoming="_x9i74bNWEemcwrjxW_efPQ" outgoing="_x9i75bNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_x9i78bNWEemcwrjxW_efPQ" name="接收温度范围" incoming="_x9i74rNWEemcwrjxW_efPQ" outgoing="_x9i767NWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:ForkNode" xmi:id="_x9i78rNWEemcwrjxW_efPQ" name="ForkNode4" incoming="_x9i747NWEemcwrjxW_efPQ" outgoing="_x9i74bNWEemcwrjxW_efPQ _x9i74rNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_x9i787NWEemcwrjxW_efPQ" name="数据验证" incoming="_x9i75bNWEemcwrjxW_efPQ" outgoing="_x9i75LNWEemcwrjxW_efPQ">
+            <behavior xmi:type="uml:OpaqueBehavior" href="../wk003/wk003.uml#_7MoGMLKIEemoNLpX2qMFxQ"/>
+          </node>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_x9i79LNWEemcwrjxW_efPQ" name="数据无效故障处理" incoming="_x9i75rNWEemcwrjxW_efPQ">
+            <behavior xmi:type="uml:OpaqueBehavior" href="../wk003/wk003.uml#_9rf8YLKIEemoNLpX2qMFxQ"/>
+          </node>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_x9i79bNWEemcwrjxW_efPQ" name="数据格式化" incoming="_x9i76LNWEemcwrjxW_efPQ" outgoing="_x9i76rNWEemcwrjxW_efPQ">
+            <behavior xmi:type="uml:OpaqueBehavior" href="../wk003/wk003.uml#_BhhywLKJEemoNLpX2qMFxQ"/>
+          </node>
+          <node xmi:type="uml:DecisionNode" xmi:id="_x9i79rNWEemcwrjxW_efPQ" name="checked" incoming="_x9i75LNWEemcwrjxW_efPQ" outgoing="_x9i75rNWEemcwrjxW_efPQ _x9i76LNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_x9i797NWEemcwrjxW_efPQ" name="温度调节" incoming="_x9i77LNWEemcwrjxW_efPQ" outgoing="_x9i77bNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:MergeNode" xmi:id="_x9i7-LNWEemcwrjxW_efPQ" name="MergeNode17" incoming="_x9i76rNWEemcwrjxW_efPQ _x9i767NWEemcwrjxW_efPQ" outgoing="_x9i77LNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:SendSignalAction" xmi:id="_x9i7-bNWEemcwrjxW_efPQ" name="发送heating" incoming="_x9i77bNWEemcwrjxW_efPQ" outgoing="_x9i77rNWEemcwrjxW_efPQ">
+            <signal xmi:type="uml:Signal" href="../wk003/wk003.uml#_dmB_ULKJEemoNLpX2qMFxQ"/>
+            <target xmi:type="uml:InputPin" xmi:id="_x9i7-rNWEemcwrjxW_efPQ" name="target">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_x9i7-7NWEemcwrjxW_efPQ" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_x9i7_LNWEemcwrjxW_efPQ" value="1"/>
+            </target>
+          </node>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_x9i7_bNWEemcwrjxW_efPQ" name="ActivityFinalNode23" incoming="_x9i77rNWEemcwrjxW_efPQ"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_q9kQQLLNEemhGK3bf_l7GA" name="datadeal_init">
+        <packagedElement xmi:type="uml:Class" xmi:id="_8nCoYLLNEemhGK3bf_l7GA" name="datadeal_initImpl">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_N1_VwLLQEemhGK3bf_l7GA" name="currentTemData" type="_5CofwLLIEemhGK3bf_l7GA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_a0cJMLLQEemhGK3bf_l7GA" name="currentTemDigital" type="_HYTaQLLIEemhGK3bf_l7GA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_kMy_sLLQEemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA">
+            <defaultValue xmi:type="uml:LiteralReal" xmi:id="_mnL-gLLQEemhGK3bf_l7GA" value="2.0"/>
+          </ownedAttribute>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_pdtfsLLQEemhGK3bf_l7GA" name="dataChecked">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wIIJQLLQEemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA" direction="out">
+              <defaultValue xmi:type="uml:LiteralReal" xmi:id="_wIIJQbLQEemhGK3bf_l7GA" value="1.0"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_yFUOsLLQEemhGK3bf_l7GA" name="dataFormat">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_34ypMLLQEemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA" direction="out">
+              <defaultValue xmi:type="uml:LiteralReal" xmi:id="_34ypMbLQEemhGK3bf_l7GA" value="1.0"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_6RFWQLLQEemhGK3bf_l7GA" name="dataInvalidDeal">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="__eRz4LLQEemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA">
+              <defaultValue xmi:type="uml:LiteralReal" xmi:id="__eRz4bLQEemhGK3bf_l7GA" value="2.0"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="__s-7oLM7EemcwrjxW_efPQ" name="datadeal_init_Realization" client="_8nCoYLLNEemhGK3bf_l7GA" supplier="_FKE0oLEGEemf0rtk8hEUOg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_yJ3e4LLNEemhGK3bf_l7GA" name="feedback_init">
+        <packagedElement xmi:type="uml:Class" xmi:id="_AGWA0LLOEemhGK3bf_l7GA" name="feedback_initImpl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Gcb40LLREemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA">
+            <defaultValue xmi:type="uml:LiteralReal" xmi:id="_Jd4QkLLREemhGK3bf_l7GA" value="1.0"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_LEN5oLM8EemcwrjxW_efPQ" name="feedback_init_Realization" client="_AGWA0LLOEemhGK3bf_l7GA" supplier="_Fi5kULEGEemf0rtk8hEUOg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_0-wBULLNEemhGK3bf_l7GA" name="setTemrange_init">
+        <packagedElement xmi:type="uml:Class" xmi:id="_CLGt4LLOEemhGK3bf_l7GA" name="setTemrange_initImpl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_iivcMLLREemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA">
+            <defaultValue xmi:type="uml:LiteralReal" xmi:id="_lv7w8LLREemhGK3bf_l7GA" value="1.0"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_XbrlkLM8EemcwrjxW_efPQ" name="setTemrange_init_Realization" client="_CLGt4LLOEemhGK3bf_l7GA" supplier="_EXEDULEGEemf0rtk8hEUOg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5r4e0LLNEemhGK3bf_l7GA" name="temadjust_init">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ENQy4LLOEemhGK3bf_l7GA" name="temadjust_initImpl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_oycfsLLREemhGK3bf_l7GA" name="wcet" type="_ZnDXwLLKEemhGK3bf_l7GA">
+            <defaultValue xmi:type="uml:LiteralReal" xmi:id="_rM-ocLLREemhGK3bf_l7GA" value="1.0"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_cWM-0LM8EemcwrjxW_efPQ" name="temadjust_init_Realization" client="_ENQy4LLOEemhGK3bf_l7GA" supplier="_EygCILEGEemf0rtk8hEUOg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_17hOwLLREemhGK3bf_l7GA" name="LSP_init">
+        <packagedElement xmi:type="uml:Class" xmi:id="_48AkQLLREemhGK3bf_l7GA" name="LSP_initImpl"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_RKFEoLM8EemcwrjxW_efPQ" name="LSP_init_Realization" client="_48AkQLLREemhGK3bf_l7GA" supplier="_17hOwLLREemhGK3bf_l7GA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_7aFtoLM8EemcwrjxW_efPQ" name="thermostat_initRealization" client="_sVn10LEAEemf0rtk8hEUOg" supplier="_Pbqn8LEAEemf0rtk8hEUOg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Pbqn8LEAEemf0rtk8hEUOg" name="thermostat_init">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_EXEDULEGEemf0rtk8hEUOg" name="setTemrange_init"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_EygCILEGEemf0rtk8hEUOg" name="temadjust_init"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="__NAoQLLREemhGK3bf_l7GA" name="LSP_init"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_FKE0oLEGEemf0rtk8hEUOg" name="datadeal_init"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Fi5kULEGEemf0rtk8hEUOg" name="feedback_init"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_vurvgLLFEemhGK3bf_l7GA" name="dataType">
+      <packagedElement xmi:type="uml:Class" xmi:id="_GAvKYLLIEemhGK3bf_l7GA" name="currentTemDigital"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_HYTaQLLIEemhGK3bf_l7GA" name="currentTemDigitalImpl">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ATzw4LLVEemhGK3bf_l7GA" name="period" type="_ZnDXwLLKEemhGK3bf_l7GA">
+          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_ClA-gLLVEemhGK3bf_l7GA" value="3.0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2gQpoLLIEemhGK3bf_l7GA" name="currentTemData"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_5CofwLLIEemhGK3bf_l7GA" name="currentTemDatalImpl">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Hq6hULLVEemhGK3bf_l7GA" name="period" type="_ZnDXwLLKEemhGK3bf_l7GA">
+          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_J0RagLLVEemhGK3bf_l7GA" value="3.0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_qw3jgLM6EemcwrjxW_efPQ" name="currentTemData_Realization" client="_5CofwLLIEemhGK3bf_l7GA" supplier="_2gQpoLLIEemhGK3bf_l7GA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WWF9ULLKEemhGK3bf_l7GA" name="ringringSignal"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_m2lpQLLMEemhGK3bf_l7GA" name="ringringSignalImpl"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_HSY7ULLPEemhGK3bf_l7GA" name="heatingSignal"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_KKP5QLLPEemhGK3bf_l7GA" name="heatingSignalImpl">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_KXK68LLPEemhGK3bf_l7GA" name="Block7"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Uadk0LLPEemhGK3bf_l7GA" name="feedbackSignal"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_W7qWQLLPEemhGK3bf_l7GA" name="feedbackSignalImpl">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_fwq10LLUEemhGK3bf_l7GA" name="period" type="_ZnDXwLLKEemhGK3bf_l7GA">
+          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_kClW8LLUEemhGK3bf_l7GA" value="3.0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_b9eqULLPEemhGK3bf_l7GA" name="operatorSettingData"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_iDj3wLLPEemhGK3bf_l7GA" name="operatorSettingDataImpl">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_vwxcYLLUEemhGK3bf_l7GA" name="period" type="_ZnDXwLLKEemhGK3bf_l7GA">
+          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_yD-OELLUEemhGK3bf_l7GA" value="3.0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mfXX4LLTEemhGK3bf_l7GA" name="operatorSettingSignal"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pxi6ULLTEemhGK3bf_l7GA" name="operatorFeedbackSiganlImpl">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_nFfuULLUEemhGK3bf_l7GA" name="period" type="_ZnDXwLLKEemhGK3bf_l7GA">
+          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_pXY4cLLUEemhGK3bf_l7GA" value="3.0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_4-Of4LLTEemhGK3bf_l7GA" name="operatorFeedbackSiganl"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UTq4LLTEemhGK3bf_l7GA" name="operatorSettingSignalImpl">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_roy6YLLUEemhGK3bf_l7GA" name="period" type="_ZnDXwLLKEemhGK3bf_l7GA">
+          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_uVct4LLUEemhGK3bf_l7GA" value="3.0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_2CAgkLM6EemcwrjxW_efPQ" name="currentTemDigital_Realization" client="_HYTaQLLIEemhGK3bf_l7GA" supplier="_GAvKYLLIEemhGK3bf_l7GA"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_9UOJ8LM6EemcwrjxW_efPQ" name="feedbackSignal_Realization" client="_W7qWQLLPEemhGK3bf_l7GA" supplier="_Uadk0LLPEemhGK3bf_l7GA"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_Ce6GILM7EemcwrjxW_efPQ" name="heatingSignal_Realization" client="_KKP5QLLPEemhGK3bf_l7GA" supplier="_HSY7ULLPEemhGK3bf_l7GA"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_I_JgALM7EemcwrjxW_efPQ" name="operatorFeedbackSiganl_Realization" client="_pxi6ULLTEemhGK3bf_l7GA" supplier="_4-Of4LLTEemhGK3bf_l7GA"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_NhGBMLM7EemcwrjxW_efPQ" name="operatorSettingData_Realization" client="_iDj3wLLPEemhGK3bf_l7GA" supplier="_b9eqULLPEemhGK3bf_l7GA"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_SQkBALM7EemcwrjxW_efPQ" name="ringringSignal_Realization" client="_m2lpQLLMEemhGK3bf_l7GA" supplier="_WWF9ULLKEemhGK3bf_l7GA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jFlkMLLJEemhGK3bf_l7GA" name="baseTypes">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ldR0ULLJEemhGK3bf_l7GA" name="Boolean"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZnDXwLLKEemhGK3bf_l7GA" name="mm"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_99GHQLLLEemhGK3bf_l7GA" name="componentTypes">
+      <packagedElement xmi:type="uml:Class" xmi:id="_BM_xwLLMEemhGK3bf_l7GA" name="processor"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZnAvgLNOEemcwrjxW_efPQ" name="Block22" memberEnd="_ZnB9orNOEemcwrjxW_efPQ _ZnDLwrNOEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZnB9oLNOEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZnB9obNOEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ZnDLwrNOEemcwrjxW_efPQ" name="isolett_initimpl" type="_U0BfoLDzEemf0rtk8hEUOg" association="_ZnAvgLNOEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_d92z8LNOEemcwrjxW_efPQ" name="Block23" memberEnd="_d94CErNOEemcwrjxW_efPQ _d94pIrNOEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d94CELNOEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d94CEbNOEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_d94pIrNOEemcwrjxW_efPQ" name="isolett_initimpl" type="_U0BfoLDzEemf0rtk8hEUOg" association="_d92z8LNOEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_fJnccLNOEemcwrjxW_efPQ" name="Block24" memberEnd="_fJoqkrNOEemcwrjxW_efPQ _fJpRorNOEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fJoqkLNOEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fJoqkbNOEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_fJpRorNOEemcwrjxW_efPQ" name="isolett_initimpl" type="_U0BfoLDzEemf0rtk8hEUOg" association="_fJnccLNOEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_fztiULNOEemcwrjxW_efPQ" name="Block25" memberEnd="_fzuwcrNOEemcwrjxW_efPQ _fzvXgrNOEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fzuwcLNOEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fzuwcbNOEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_fzvXgrNOEemcwrjxW_efPQ" name="isolett_initimpl" type="_U0BfoLDzEemf0rtk8hEUOg" association="_fztiULNOEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_rcuz4LNOEemcwrjxW_efPQ" name="Block26" memberEnd="_rcva8rNOEemcwrjxW_efPQ _rcwCArNOEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rcva8LNOEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rcva8bNOEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_rcwCArNOEemcwrjxW_efPQ" name="isolett_initimpl" type="_U0BfoLDzEemf0rtk8hEUOg" association="_rcuz4LNOEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Pe-WQLNTEemcwrjxW_efPQ" name="Block27" memberEnd="_PfALcrNTEemcwrjxW_efPQ _PfCAorNTEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PfALcLNTEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PfALcbNTEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_PfCAorNTEemcwrjxW_efPQ" name="isolett" type="_LACdELDzEemf0rtk8hEUOg" association="_Pe-WQLNTEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_UbCnoLNTEemcwrjxW_efPQ" name="Block28" memberEnd="_UbEc0rNTEemcwrjxW_efPQ _UbGSArNTEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UbEc0LNTEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UbEc0bNTEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_UbGSArNTEemcwrjxW_efPQ" name="isolett" type="_LACdELDzEemf0rtk8hEUOg" association="_UbCnoLNTEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_U2oXcLNTEemcwrjxW_efPQ" name="Block29" memberEnd="_U2qMoLNTEemcwrjxW_efPQ _U2rawrNTEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U2plkLNTEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U2plkbNTEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_U2rawrNTEemcwrjxW_efPQ" name="isolett" type="_LACdELDzEemf0rtk8hEUOg" association="_U2oXcLNTEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_VRYZwLNTEemcwrjxW_efPQ" name="Block30" memberEnd="_VRaO8rNTEemcwrjxW_efPQ _VRa2ArNTEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VRaO8LNTEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VRaO8bNTEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_VRa2ArNTEemcwrjxW_efPQ" name="isolett" type="_LACdELDzEemf0rtk8hEUOg" association="_VRYZwLNTEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_VvcOwLNTEemcwrjxW_efPQ" name="Block31" memberEnd="_Vvdc4rNTEemcwrjxW_efPQ _VverArNTEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vvdc4LNTEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Vvdc4bNTEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_VverArNTEemcwrjxW_efPQ" name="isolett" type="_LACdELDzEemf0rtk8hEUOg" association="_VvcOwLNTEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_G0e5ELNYEemcwrjxW_efPQ" name="losealarming"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VisZ8LNYEemcwrjxW_efPQ" name="dataInvalid"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZuivULNYEemcwrjxW_efPQ" name="Block34" memberEnd="_ZulyobNYEemcwrjxW_efPQ _Zuo18LNYEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZulLkLNYEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZulyoLNYEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ZulyobNYEemcwrjxW_efPQ" name="losealarming" type="_G0e5ELNYEemcwrjxW_efPQ" association="_ZuivULNYEemcwrjxW_efPQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Zuo18LNYEemcwrjxW_efPQ" name="alarm_init" type="_7R-5sLD7Eemf0rtk8hEUOg" association="_ZuivULNYEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_aYu70LNYEemcwrjxW_efPQ" name="Block35" memberEnd="_aYwxArNYEemcwrjxW_efPQ _aYymMLNYEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aYwxALNYEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aYwxAbNYEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_aYwxArNYEemcwrjxW_efPQ" name="datainvalid" type="_VisZ8LNYEemcwrjxW_efPQ" association="_aYu70LNYEemcwrjxW_efPQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_aYymMLNYEemcwrjxW_efPQ" name="alarm_init" type="_7R-5sLD7Eemf0rtk8hEUOg" association="_aYu70LNYEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_v7JUYLNYEemcwrjxW_efPQ" name="Block37" memberEnd="_v7LJkrNYEemcwrjxW_efPQ _v7M-wLNYEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v7LJkLNYEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v7LJkbNYEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_v7LJkrNYEemcwrjxW_efPQ" name="datainvalid" type="_VisZ8LNYEemcwrjxW_efPQ" association="_v7JUYLNYEemcwrjxW_efPQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_v7M-wLNYEemcwrjxW_efPQ" name="thermostat_init" type="_Pbqn8LEAEemf0rtk8hEUOg" association="_v7JUYLNYEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yxDxkLNYEemcwrjxW_efPQ" name="loseHeating"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_24h9QLNYEemcwrjxW_efPQ" name="Block38" memberEnd="_24kZgLNYEemcwrjxW_efPQ _24m1wLNYEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_24jycLNYEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_24jycbNYEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_24kZgLNYEemcwrjxW_efPQ" name="loseheating" type="_yxDxkLNYEemcwrjxW_efPQ" association="_24h9QLNYEemcwrjxW_efPQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_24m1wLNYEemcwrjxW_efPQ" name="thermostat_init" type="_Pbqn8LEAEemf0rtk8hEUOg" association="_24h9QLNYEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_49xLcLNYEemcwrjxW_efPQ" name="loseFunction"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8Qs70LNYEemcwrjxW_efPQ" name="Block40" memberEnd="_8QvYELNYEemcwrjxW_efPQ _8Qx0ULNYEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8QuxALNYEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8QuxAbNYEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_8QvYELNYEemcwrjxW_efPQ" name="losefunction" type="_49xLcLNYEemcwrjxW_efPQ" association="_8Qs70LNYEemcwrjxW_efPQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_8Qx0ULNYEemcwrjxW_efPQ" name="heatsource_init" type="_YjB_oLEBEemf0rtk8hEUOg" association="_8Qs70LNYEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_821uwLNYEemcwrjxW_efPQ" name="Block41" memberEnd="_823j8rNYEemcwrjxW_efPQ _824LALNYEemcwrjxW_efPQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_823j8LNYEemcwrjxW_efPQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_823j8bNYEemcwrjxW_efPQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_823j8rNYEemcwrjxW_efPQ" name="losefunction" type="_49xLcLNYEemcwrjxW_efPQ" association="_821uwLNYEemcwrjxW_efPQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_824LALNYEemcwrjxW_efPQ" name="temperatorsensor_init" type="_ZtfAkLEBEemf0rtk8hEUOg" association="_821uwLNYEemcwrjxW_efPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_uFRBwLNhEemcwrjxW_efPQ" name="Allocate42"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wrq5MLB1Eemf0rtk8hEUOg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wsZR8LB1Eemf0rtk8hEUOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wsagELB1Eemf0rtk8hEUOg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wsagEbB1Eemf0rtk8hEUOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wsjC8LB1Eemf0rtk8hEUOg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wsjqALB1Eemf0rtk8hEUOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wsjqAbB1Eemf0rtk8hEUOg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wsjqArB1Eemf0rtk8hEUOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wsjqA7B1Eemf0rtk8hEUOg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wskRELB1Eemf0rtk8hEUOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wskREbB1Eemf0rtk8hEUOg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wskRErB1Eemf0rtk8hEUOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wskRE7B1Eemf0rtk8hEUOg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wsk4ILB1Eemf0rtk8hEUOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wslfMLB1Eemf0rtk8hEUOg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wslfMbB1Eemf0rtk8hEUOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wslfMrB1Eemf0rtk8hEUOg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wslfM7B1Eemf0rtk8hEUOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wsmGQLB1Eemf0rtk8hEUOg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wsmGQbB1Eemf0rtk8hEUOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Blocks:Block xmi:id="_LAE5ULDzEemf0rtk8hEUOg" base_Class="_LACdELDzEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_U0D74LDzEemf0rtk8hEUOg" base_Class="_U0BfoLDzEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_7SAu4LD7Eemf0rtk8hEUOg" base_Class="_7R-5sLD7Eemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_-Z9XQLD7Eemf0rtk8hEUOg" base_Class="_-Z67ALD7Eemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_PKcVELEAEemf0rtk8hEUOg" base_Class="_PKZ40LEAEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_PbsdILEAEemf0rtk8hEUOg" base_Class="_Pbqn8LEAEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_p5IlQLEAEemf0rtk8hEUOg" base_Class="_p5GwELEAEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_sVprALEAEemf0rtk8hEUOg" base_Class="_sVn10LEAEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_YjEb4LEBEemf0rtk8hEUOg" base_Class="_YjB_oLEBEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_Y5TxoLEBEemf0rtk8hEUOg" base_Class="_Y5R8cLEBEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_Zbn0gLEBEemf0rtk8hEUOg" base_Class="_Zbl_ULEBEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_Ztg1wLEBEemf0rtk8hEUOg" base_Class="_ZtfAkLEBEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_yoR_ULEDEemf0rtk8hEUOg" base_Class="_yoQKILEDEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_49i4QLEDEemf0rtk8hEUOg" base_Class="_49gcALEDEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_5Txm8LEDEemf0rtk8hEUOg" base_Class="_5TvxwLEDEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_EXGfkLEGEemf0rtk8hEUOg" base_Class="_EXEDULEGEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_EyieYLEGEemf0rtk8hEUOg" base_Class="_EygCILEGEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_FKGp0LEGEemf0rtk8hEUOg" base_Class="_FKE0oLEGEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_Fi7ZgLEGEemf0rtk8hEUOg" base_Class="_Fi5kULEGEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_2d0wsLEHEemf0rtk8hEUOg" base_Class="_2dyUcLEHEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_2v7NULEHEemf0rtk8hEUOg" base_Class="_2v4xELEHEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_Mvj7ILENEemf0rtk8hEUOg" base_Class="_MviF8LENEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_kLOUULENEemf0rtk8hEUOg" base_Class="_kLMfILENEemf0rtk8hEUOg"/>
+  <Blocks:Block xmi:id="_rhUYILENEemf0rtk8hEUOg" base_Class="_rhR74LENEemf0rtk8hEUOg"/>
+  <DeprecatedElements:FlowPort xmi:id="_OisZ0LLHEemhGK3bf_l7GA" base_Port="_OiZe4LLHEemhGK3bf_l7GA" direction="in"/>
+  <Blocks:Block xmi:id="_GAy0wLLIEemhGK3bf_l7GA" base_Class="_GAvKYLLIEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_HYWdkLLIEemhGK3bf_l7GA" base_Class="_HYTaQLLIEemhGK3bf_l7GA"/>
+  <DeprecatedElements:FlowPort xmi:id="_fkcOILLIEemhGK3bf_l7GA" base_Port="_fkZK0LLIEemhGK3bf_l7GA" direction="in"/>
+  <DeprecatedElements:FlowPort xmi:id="_ySqAwLLIEemhGK3bf_l7GA" base_Port="_ySgPwLLIEemhGK3bf_l7GA" direction="out"/>
+  <Blocks:Block xmi:id="_2gTF4LLIEemhGK3bf_l7GA" base_Class="_2gQpoLLIEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_5CqU8LLIEemhGK3bf_l7GA" base_Class="_5CofwLLIEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_ldTpgLLJEemhGK3bf_l7GA" base_Class="_ldR0ULLJEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_WWIZkLLKEemhGK3bf_l7GA" base_Class="_WWF9ULLKEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_ZnGbELLKEemhGK3bf_l7GA" base_Class="_ZnDXwLLKEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_BNCOALLMEemhGK3bf_l7GA" base_Class="_BM_xwLLMEemhGK3bf_l7GA"/>
+  <DeprecatedElements:FlowPort xmi:id="_QKsgILLMEemhGK3bf_l7GA" base_Port="_QKpc0LLMEemhGK3bf_l7GA" direction="in"/>
+  <Blocks:Block xmi:id="_m2necLLMEemhGK3bf_l7GA" base_Class="_m2lpQLLMEemhGK3bf_l7GA"/>
+  <DeprecatedElements:FlowPort xmi:id="_rD9BkLLMEemhGK3bf_l7GA" base_Port="_rD6lULLMEemhGK3bf_l7GA" direction="out"/>
+  <DeprecatedElements:FlowPort xmi:id="_yrgBwLLMEemhGK3bf_l7GA" base_Port="_yrRYQLLMEemhGK3bf_l7GA" direction="in"/>
+  <DeprecatedElements:FlowPort xmi:id="_NGWv8LLNEemhGK3bf_l7GA" base_Port="_NGQpULLNEemhGK3bf_l7GA" direction="out"/>
+  <Blocks:Block xmi:id="_8nFEoLLNEemhGK3bf_l7GA" base_Class="_8nCoYLLNEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_AGYdELLOEemhGK3bf_l7GA" base_Class="_AGWA0LLOEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_CLIjELLOEemhGK3bf_l7GA" base_Class="_CLGt4LLOEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_ENSoELLOEemhGK3bf_l7GA" base_Class="_ENQy4LLOEemhGK3bf_l7GA"/>
+  <DeprecatedElements:FlowPort xmi:id="_u3JUcLLOEemhGK3bf_l7GA" base_Port="_u3HfQLLOEemhGK3bf_l7GA" direction="in"/>
+  <DeprecatedElements:FlowPort xmi:id="_9xhpELLOEemhGK3bf_l7GA" base_Port="_9xZtQLLOEemhGK3bf_l7GA" direction="out"/>
+  <Blocks:Block xmi:id="_HSawgLLPEemhGK3bf_l7GA" base_Class="_HSY7ULLPEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_KKRucLLPEemhGK3bf_l7GA" base_Class="_KKP5QLLPEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_KXLiALLPEemhGK3bf_l7GA" base_Class="_KXK68LLPEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_UafaALLPEemhGK3bf_l7GA" base_Class="_Uadk0LLPEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_W7sygLLPEemhGK3bf_l7GA" base_Class="_W7qWQLLPEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_b9hGkLLPEemhGK3bf_l7GA" base_Class="_b9eqULLPEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_iDmUALLPEemhGK3bf_l7GA" base_Class="_iDj3wLLPEemhGK3bf_l7GA"/>
+  <DeprecatedElements:FlowPort xmi:id="_mAPIsLLPEemhGK3bf_l7GA" base_Port="_mAGl0LLPEemhGK3bf_l7GA" direction="in"/>
+  <DeprecatedElements:FlowPort xmi:id="_w57PELLPEemhGK3bf_l7GA" base_Port="_w54y0LLPEemhGK3bf_l7GA" direction="out"/>
+  <DeprecatedElements:FlowPort xmi:id="_N2GqgLLQEemhGK3bf_l7GA" base_Port="_N1_VwLLQEemhGK3bf_l7GA" direction="out"/>
+  <DeprecatedElements:FlowPort xmi:id="_a0d-YLLQEemhGK3bf_l7GA" base_Port="_a0cJMLLQEemhGK3bf_l7GA" direction="in"/>
+  <Blocks:Block xmi:id="_48CZcLLREemhGK3bf_l7GA" base_Class="_48AkQLLREemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="__NCdcLLREemhGK3bf_l7GA" base_Class="__NAoQLLREemhGK3bf_l7GA"/>
+  <DeprecatedElements:FlowPort xmi:id="_NCIlALLSEemhGK3bf_l7GA" base_Port="_NCBQQLLSEemhGK3bf_l7GA" direction="in"/>
+  <Blocks:Block xmi:id="_ve9lkLLSEemhGK3bf_l7GA" base_Class="_ve7JULLSEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_yx1EgLLSEemhGK3bf_l7GA" base_Class="_yxyoQLLSEemhGK3bf_l7GA"/>
+  <DeprecatedElements:FlowPort xmi:id="_LX40QLLTEemhGK3bf_l7GA" base_Port="_LXvqULLTEemhGK3bf_l7GA" direction="in"/>
+  <DeprecatedElements:FlowPort xmi:id="_ahdbcLLTEemhGK3bf_l7GA" base_Port="_ahbmQLLTEemhGK3bf_l7GA" direction="out"/>
+  <Blocks:Block xmi:id="_mfZNELLTEemhGK3bf_l7GA" base_Class="_mfXX4LLTEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_pxkvgLLTEemhGK3bf_l7GA" base_Class="_pxi6ULLTEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_4-QVELLTEemhGK3bf_l7GA" base_Class="_4-Of4LLTEemhGK3bf_l7GA"/>
+  <Blocks:Block xmi:id="_8UWHILLTEemhGK3bf_l7GA" base_Class="_8UTq4LLTEemhGK3bf_l7GA"/>
+  <DeprecatedElements:FlowPort xmi:id="_QVZkwLNPEemcwrjxW_efPQ" base_Port="_QVTeILNPEemcwrjxW_efPQ" direction="out"/>
+  <DeprecatedElements:FlowPort xmi:id="_h51E0LNPEemcwrjxW_efPQ" base_Port="_h5oQgLNPEemcwrjxW_efPQ" direction="in"/>
+  <Blocks:NestedConnectorEnd xmi:id="_CIg9YrNREemcwrjxW_efPQ" base_Element="_CIg9YLNREemcwrjxW_efPQ" propertyPath="_rcva8rNOEemcwrjxW_efPQ" base_ConnectorEnd="_CIg9YLNREemcwrjxW_efPQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_CIhkcLNREemcwrjxW_efPQ" base_Element="_CIg9YbNREemcwrjxW_efPQ" propertyPath="_d94CErNOEemcwrjxW_efPQ" base_ConnectorEnd="_CIg9YbNREemcwrjxW_efPQ"/>
+  <Blocks:BindingConnector xmi:id="_CIlO0LNREemcwrjxW_efPQ" base_Connector="_CIcr8LNREemcwrjxW_efPQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_NBXWQrNREemcwrjxW_efPQ" base_Element="_NBXWQLNREemcwrjxW_efPQ" propertyPath="_rcva8rNOEemcwrjxW_efPQ" base_ConnectorEnd="_NBXWQLNREemcwrjxW_efPQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_NBX9ULNREemcwrjxW_efPQ" base_Element="_NBXWQbNREemcwrjxW_efPQ" propertyPath="_fzuwcrNOEemcwrjxW_efPQ" base_ConnectorEnd="_NBXWQbNREemcwrjxW_efPQ"/>
+  <Blocks:BindingConnector xmi:id="_NBYkYLNREemcwrjxW_efPQ" base_Connector="_NBTr4LNREemcwrjxW_efPQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_bfqy4LNREemcwrjxW_efPQ" base_Element="_bfqL0LNREemcwrjxW_efPQ" propertyPath="_rcva8rNOEemcwrjxW_efPQ" base_ConnectorEnd="_bfqL0LNREemcwrjxW_efPQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_bfsBALNREemcwrjxW_efPQ" base_Element="_bfqL0bNREemcwrjxW_efPQ" propertyPath="_fzuwcrNOEemcwrjxW_efPQ" base_ConnectorEnd="_bfqL0bNREemcwrjxW_efPQ"/>
+  <Blocks:BindingConnector xmi:id="_bfsoELNREemcwrjxW_efPQ" base_Connector="_bfi3ELNREemcwrjxW_efPQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_XHfcQbNSEemcwrjxW_efPQ" base_Element="_XHe1MLNSEemcwrjxW_efPQ" propertyPath="_fJoqkrNOEemcwrjxW_efPQ" base_ConnectorEnd="_XHe1MLNSEemcwrjxW_efPQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_XHfcQrNSEemcwrjxW_efPQ" base_Element="_XHfcQLNSEemcwrjxW_efPQ" propertyPath="_rcva8rNOEemcwrjxW_efPQ" base_ConnectorEnd="_XHfcQLNSEemcwrjxW_efPQ"/>
+  <Blocks:BindingConnector xmi:id="_XHgDULNSEemcwrjxW_efPQ" base_Connector="_XHbK0LNSEemcwrjxW_efPQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_ZonVMbNSEemcwrjxW_efPQ" base_Element="_ZomuILNSEemcwrjxW_efPQ" propertyPath="_fJoqkrNOEemcwrjxW_efPQ" base_ConnectorEnd="_ZomuILNSEemcwrjxW_efPQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_Zon8QLNSEemcwrjxW_efPQ" base_Element="_ZonVMLNSEemcwrjxW_efPQ" propertyPath="_ZnB9orNOEemcwrjxW_efPQ" base_ConnectorEnd="_ZonVMLNSEemcwrjxW_efPQ"/>
+  <Blocks:Block xmi:id="_G0hVULNYEemcwrjxW_efPQ" base_Class="_G0e5ELNYEemcwrjxW_efPQ"/>
+  <Blocks:Block xmi:id="_Viu2MLNYEemcwrjxW_efPQ" base_Class="_VisZ8LNYEemcwrjxW_efPQ"/>
+  <Blocks:Block xmi:id="_yxGN0LNYEemcwrjxW_efPQ" base_Class="_yxDxkLNYEemcwrjxW_efPQ"/>
+  <Blocks:Block xmi:id="_49znsLNYEemcwrjxW_efPQ" base_Class="_49xLcLNYEemcwrjxW_efPQ"/>
+  <Allocations:Allocate xmi:id="_uFUsILNhEemcwrjxW_efPQ" base_DirectedRelationship="_uFRBwLNhEemcwrjxW_efPQ" base_Abstraction="_uFRBwLNhEemcwrjxW_efPQ"/>
+</xmi:XMI>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<AllocationTable>
+<Allocation actionName="调用响铃" blockName="begainalarming_init"/>
+<Allocation actionName="数据处理" blockName="datadeal_init"/>
+<Allocation actionName="数据处理" blockName="datadeal_init"/>
+<Allocation actionName="温度调节" blockName="temadjust_init"/>
+<Allocation actionName="硬件故障" blockName="heatsource_init"/>
+<Allocation actionName="硬件故障" blockName="temperatorsensor_init"/>
+</AllocationTable>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FailureLevelTable>
+  <Level failureLevel="灾难" Rate="2.0*10-3"/>
+  <Level failureLevel="严重" Rate="5.0*10-3"/>
+  <Level failureLevel="轻度" Rate="1.0*10-2"/>
+  <Level failureLevel="轻微" Rate="1.0*10-1"/>
+  <Level failureLevel="安全" Rate="0.0*10-0"/>
+</FailureLevelTable>

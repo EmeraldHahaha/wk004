@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<FailurecaseTable>
+<Component BlockName="alarm_init" failAction="调用响铃" failureCaseName="losealarming" influence="丧失响铃报警功能，不能及时通知，进而影响医护人员及时调节温度范围，直接影响婴儿生命" level="灾难"/>
+<Component BlockName="alarm_init" failAction="数据处理" failureCaseName="dataInvalid" influence="数据异常，不能及时进行温度检测以判断是否报警，可能会影响婴儿生命" level="严重"/>
+<Component BlockName="thermostat_init" failAction="数据处理" failureCaseName="dataInvalid" influence="数据异常，不能及时进行温度调节，可能会影响婴儿生命" level="严重"/>
+<Component BlockName="thermostat_init" failAction="温度调节" failureCaseName="loseHeating" influence="丧失温度调节功能，不能及时发出heating信号，调节温度，可能会影响婴儿生命" level="严重"/>
+<Component BlockName="heatsource_init" failAction="硬件故障" failureCaseName="loseFunction" influence="丧失散热或制冷功能，不能及时调节温度" level="严重"/>
+<Component BlockName="temperatorsensor_init" failAction="硬件故障" failureCaseName="loseFunction" influence="丧失收集温度信号功能，不能及时传递温度信息，影响温度调节" level="严重"/>
+</FailurecaseTable>
