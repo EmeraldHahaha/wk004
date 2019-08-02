@@ -56,33 +56,40 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rcwCALNOEemcwrjxW_efPQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rcwCAbNOEemcwrjxW_efPQ" value="1"/>
         </ownedAttribute>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_CIcr8LNREemcwrjxW_efPQ" name="BindingConnector8">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_CIg9YLNREemcwrjxW_efPQ" partWithPort="_rcva8rNOEemcwrjxW_efPQ" role="_9xZtQLLOEemhGK3bf_l7GA"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_CIg9YbNREemcwrjxW_efPQ" partWithPort="_d94CErNOEemcwrjxW_efPQ" role="_NCBQQLLSEemhGK3bf_l7GA"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_zsLSALOEEemYM6A6Url0uA" name="Block11">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_zsO8YLOEEemYM6A6Url0uA" partWithPort="_fJoqkrNOEemcwrjxW_efPQ" role="_NGQpULLNEemhGK3bf_l7GA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_zsPjcLOEEemYM6A6Url0uA" partWithPort="_ZnB9orNOEemcwrjxW_efPQ" role="_OiZe4LLHEemhGK3bf_l7GA"/>
         </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_NBTr4LNREemcwrjxW_efPQ" name="BindingConnector9">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NBXWQLNREemcwrjxW_efPQ" partWithPort="_rcva8rNOEemcwrjxW_efPQ" role="_mAGl0LLPEemhGK3bf_l7GA"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NBXWQbNREemcwrjxW_efPQ" partWithPort="_fzuwcrNOEemcwrjxW_efPQ" role="_ahbmQLLTEemhGK3bf_l7GA"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_1PI5kLOEEemYM6A6Url0uA" name="Block11">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1PKuwLOEEemYM6A6Url0uA" partWithPort="_fJoqkrNOEemcwrjxW_efPQ" role="_NGQpULLNEemhGK3bf_l7GA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1PLV0LOEEemYM6A6Url0uA" partWithPort="_rcva8rNOEemcwrjxW_efPQ" role="_u3HfQLLOEemhGK3bf_l7GA"/>
         </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_bfi3ELNREemcwrjxW_efPQ" name="BindingConnector10">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_bfqL0LNREemcwrjxW_efPQ" partWithPort="_rcva8rNOEemcwrjxW_efPQ" role="_w54y0LLPEemhGK3bf_l7GA"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_bfqL0bNREemcwrjxW_efPQ" partWithPort="_fzuwcrNOEemcwrjxW_efPQ" role="_LXvqULLTEemhGK3bf_l7GA"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_2qAVELOEEemYM6A6Url0uA" name="Block11">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_2qBjMLOEEemYM6A6Url0uA" partWithPort="_rcva8rNOEemcwrjxW_efPQ" role="_mAGl0LLPEemhGK3bf_l7GA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_2qCKQLOEEemYM6A6Url0uA" partWithPort="_fzuwcrNOEemcwrjxW_efPQ" role="_ahbmQLLTEemhGK3bf_l7GA"/>
         </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_XHbK0LNSEemcwrjxW_efPQ" name="BindingConnector10">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_XHe1MLNSEemcwrjxW_efPQ" partWithPort="_fJoqkrNOEemcwrjxW_efPQ" role="_NGQpULLNEemhGK3bf_l7GA"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_XHfcQLNSEemcwrjxW_efPQ" partWithPort="_rcva8rNOEemcwrjxW_efPQ" role="_u3HfQLLOEemhGK3bf_l7GA"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_383EELOEEemYM6A6Url0uA" name="Block11">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_384SMLOEEemYM6A6Url0uA" partWithPort="_fzuwcrNOEemcwrjxW_efPQ" role="_LXvqULLTEemhGK3bf_l7GA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_384SMbOEEemYM6A6Url0uA" partWithPort="_rcva8rNOEemcwrjxW_efPQ" role="_w54y0LLPEemhGK3bf_l7GA"/>
         </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_Zok48LNSEemcwrjxW_efPQ" name="Block10">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_ZomuILNSEemcwrjxW_efPQ" partWithPort="_fJoqkrNOEemcwrjxW_efPQ" role="_NGQpULLNEemhGK3bf_l7GA"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_ZonVMLNSEemcwrjxW_efPQ" partWithPort="_ZnB9orNOEemcwrjxW_efPQ" role="_OiZe4LLHEemhGK3bf_l7GA"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_49rA0LOEEemYM6A6Url0uA" name="Block11">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_49s2ALOEEemYM6A6Url0uA" partWithPort="_rcva8rNOEemcwrjxW_efPQ" role="_9xZtQLLOEemhGK3bf_l7GA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_49s2AbOEEemYM6A6Url0uA" partWithPort="_d94CErNOEemcwrjxW_efPQ" role="_NCBQQLLSEemhGK3bf_l7GA"/>
         </ownedConnector>
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_M_Hr0LNXEemcwrjxW_efPQ" name="isolett_ac" node="_M_Hr7LNXEemcwrjxW_efPQ _M_Hr7bNXEemcwrjxW_efPQ _M_Hr7rNXEemcwrjxW_efPQ _M_Hr77NXEemcwrjxW_efPQ _M_Hr8rNXEemcwrjxW_efPQ _M_Hr87NXEemcwrjxW_efPQ _M_Hr9LNXEemcwrjxW_efPQ _M_Hr9bNXEemcwrjxW_efPQ _M_Hr9rNXEemcwrjxW_efPQ _M_Hr97NXEemcwrjxW_efPQ _M_Hr-rNXEemcwrjxW_efPQ _M_Hr-7NXEemcwrjxW_efPQ _M_Hr_LNXEemcwrjxW_efPQ _M_Hr_bNXEemcwrjxW_efPQ _M_Hr_rNXEemcwrjxW_efPQ _M_HsArNXEemcwrjxW_efPQ _M_HsA7NXEemcwrjxW_efPQ _M_HsBLNXEemcwrjxW_efPQ _M_HsBbNXEemcwrjxW_efPQ">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_M_Hr0LNXEemcwrjxW_efPQ" name="isolett_ac" node="_M_Hr7LNXEemcwrjxW_efPQ _M_Hr7bNXEemcwrjxW_efPQ _M_Hr7rNXEemcwrjxW_efPQ _M_Hr77NXEemcwrjxW_efPQ _M_Hr8rNXEemcwrjxW_efPQ _M_Hr87NXEemcwrjxW_efPQ _M_Hr9LNXEemcwrjxW_efPQ _M_Hr9bNXEemcwrjxW_efPQ _M_Hr9rNXEemcwrjxW_efPQ _M_Hr97NXEemcwrjxW_efPQ _M_Hr-rNXEemcwrjxW_efPQ _M_Hr-7NXEemcwrjxW_efPQ _M_Hr_LNXEemcwrjxW_efPQ _M_Hr_bNXEemcwrjxW_efPQ _M_Hr_rNXEemcwrjxW_efPQ _M_HsArNXEemcwrjxW_efPQ _M_HsA7NXEemcwrjxW_efPQ _M_HsBLNXEemcwrjxW_efPQ _M_HsBbNXEemcwrjxW_efPQ _gR59cLT_Eem2r7R0gvJ4bQ _ksddMLT_Eem2r7R0gvJ4bQ _tFaFILT_Eem2r7R0gvJ4bQ _3vV4QLT_Eem2r7R0gvJ4bQ _fAOBMLUBEem2r7R0gvJ4bQ _iFxc4LUBEem2r7R0gvJ4bQ _xAB1sLUBEem2r7R0gvJ4bQ _zbiO0LUBEem2r7R0gvJ4bQ">
           <ownedRule xmi:type="uml:Constraint" xmi:id="_M_Hr0bNXEemcwrjxW_efPQ" name="Constraint16">
             <specification xmi:type="uml:OpaqueExpression" xmi:id="_M_Hr0rNXEemcwrjxW_efPQ" name="constraintSpec">
               <language>OCL</language>
               <body>true</body>
             </specification>
           </ownedRule>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nV3vcLT_Eem2r7R0gvJ4bQ" name="数据异常处理"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_uJIL8LT_Eem2r7R0gvJ4bQ" name="数据格式化"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gJWzgLUBEem2r7R0gvJ4bQ" name="OpaqueBehavior55"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ipRLgLUBEem2r7R0gvJ4bQ" name="OpaqueBehavior57"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_xjnq8LUBEem2r7R0gvJ4bQ" name="OpaqueBehavior61"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_kxIIgLUEEem2r7R0gvJ4bQ" name="OpaqueBehavior62"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CAT_gLUFEem2r7R0gvJ4bQ" name="OpaqueBehavior63"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr07NXEemcwrjxW_efPQ" target="_M_HsA7NXEemcwrjxW_efPQ" source="_M_Hr7LNXEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr1LNXEemcwrjxW_efPQ" target="_M_HsBLNXEemcwrjxW_efPQ" source="_M_Hr77NXEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr1bNXEemcwrjxW_efPQ" target="_M_Hr9rNXEemcwrjxW_efPQ" source="_M_Hr87NXEemcwrjxW_efPQ"/>
@@ -93,12 +100,11 @@
           </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr2rNXEemcwrjxW_efPQ" target="_M_Hr8rNXEemcwrjxW_efPQ" source="_M_Hr7rNXEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr27NXEemcwrjxW_efPQ" target="_M_Hr-LNXEemcwrjxW_efPQ" source="_M_Hr9bNXEemcwrjxW_efPQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr3LNXEemcwrjxW_efPQ" target="_M_Hr_bNXEemcwrjxW_efPQ" source="_M_Hr97NXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr3LNXEemcwrjxW_efPQ" target="_gR59cLT_Eem2r7R0gvJ4bQ" source="_M_Hr97NXEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr3bNXEemcwrjxW_efPQ" target="_M_Hr_LNXEemcwrjxW_efPQ" source="_M_Hr-7NXEemcwrjxW_efPQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr3rNXEemcwrjxW_efPQ" target="_M_Hr_bNXEemcwrjxW_efPQ" source="_M_Hr_LNXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr3rNXEemcwrjxW_efPQ" target="_fAOBMLUBEem2r7R0gvJ4bQ" source="_M_Hr_LNXEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr37NXEemcwrjxW_efPQ" target="_M_Hr-rNXEemcwrjxW_efPQ" source="_M_Hr_bNXEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr4LNXEemcwrjxW_efPQ" target="_M_Hr_7NXEemcwrjxW_efPQ" source="_M_Hr-rNXEemcwrjxW_efPQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr4bNXEemcwrjxW_efPQ" target="_M_Hr7bNXEemcwrjxW_efPQ" source="_M_Hr_rNXEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr4rNXEemcwrjxW_efPQ" target="_M_HsArNXEemcwrjxW_efPQ" source="_M_Hr9rNXEemcwrjxW_efPQ">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_M_Hr47NXEemcwrjxW_efPQ" name="超过正常值"/>
           </edge>
@@ -106,35 +112,48 @@
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr5bNXEemcwrjxW_efPQ" target="_M_Hr7rNXEemcwrjxW_efPQ" source="_M_HsA7NXEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr5rNXEemcwrjxW_efPQ" target="_M_Hr-7NXEemcwrjxW_efPQ" source="_M_HsA7NXEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr57NXEemcwrjxW_efPQ" target="_M_Hr87NXEemcwrjxW_efPQ" source="_M_HsBLNXEemcwrjxW_efPQ">
-            <guard xmi:type="uml:LiteralBoolean" xmi:id="_M_Hr6LNXEemcwrjxW_efPQ" name="数据验证异常"/>
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_M_Hr6LNXEemcwrjxW_efPQ" name="数据验证" value="true"/>
           </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr6bNXEemcwrjxW_efPQ" target="_M_HsBbNXEemcwrjxW_efPQ" source="_M_HsBLNXEemcwrjxW_efPQ">
-            <guard xmi:type="uml:LiteralBoolean" xmi:id="_M_Hr6rNXEemcwrjxW_efPQ" name="数据验证异常" value="true"/>
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_M_Hr6rNXEemcwrjxW_efPQ" name="数据验证"/>
           </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_M_Hr67NXEemcwrjxW_efPQ" target="_M_HsArNXEemcwrjxW_efPQ" source="_M_HsBbNXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x8dToLT_Eem2r7R0gvJ4bQ" target="_ksddMLT_Eem2r7R0gvJ4bQ" source="_gR59cLT_Eem2r7R0gvJ4bQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_Rilz4LUAEem2r7R0gvJ4bQ" name="数据验证"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_zDRKsLT_Eem2r7R0gvJ4bQ" target="_tFaFILT_Eem2r7R0gvJ4bQ" source="_gR59cLT_Eem2r7R0gvJ4bQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_aUqtgLUAEem2r7R0gvJ4bQ" name="数据验证" value="true"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_0hs3kLT_Eem2r7R0gvJ4bQ" target="_M_Hr_bNXEemcwrjxW_efPQ" source="_tFaFILT_Eem2r7R0gvJ4bQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_4UlTULT_Eem2r7R0gvJ4bQ" target="_3vV4QLT_Eem2r7R0gvJ4bQ" source="_ksddMLT_Eem2r7R0gvJ4bQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_E3zjULUAEem2r7R0gvJ4bQ" target="_M_Hr7bNXEemcwrjxW_efPQ" source="_M_Hr_rNXEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_pEBocLUBEem2r7R0gvJ4bQ" target="_M_Hr_bNXEemcwrjxW_efPQ" source="_fAOBMLUBEem2r7R0gvJ4bQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_tAvVoLUBEem2r7R0gvJ4bQ" target="_iFxc4LUBEem2r7R0gvJ4bQ" source="_fAOBMLUBEem2r7R0gvJ4bQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_0dc-0LUBEem2r7R0gvJ4bQ" target="_xAB1sLUBEem2r7R0gvJ4bQ" source="_iFxc4LUBEem2r7R0gvJ4bQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_1F9JQLUBEem2r7R0gvJ4bQ" target="_zbiO0LUBEem2r7R0gvJ4bQ" source="_xAB1sLUBEem2r7R0gvJ4bQ"/>
           <node xmi:type="uml:InitialNode" xmi:id="_M_Hr7LNXEemcwrjxW_efPQ" name="InitialNode1" outgoing="_M_Hr07NXEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:ActivityFinalNode" xmi:id="_M_Hr7bNXEemcwrjxW_efPQ" name="ActivityFinalNode3" incoming="_M_Hr4bNXEemcwrjxW_efPQ _M_Hr5LNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_M_Hr7bNXEemcwrjxW_efPQ" name="ActivityFinalNode3" incoming="_M_Hr5LNXEemcwrjxW_efPQ _E3zjULUAEem2r7R0gvJ4bQ"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr7rNXEemcwrjxW_efPQ" name="检测环境温度" incoming="_M_Hr5bNXEemcwrjxW_efPQ" outgoing="_M_Hr2rNXEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr77NXEemcwrjxW_efPQ" name="datadeal" outgoing="_M_Hr1LNXEemcwrjxW_efPQ">
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr77NXEemcwrjxW_efPQ" name="数据处理" outgoing="_M_Hr1LNXEemcwrjxW_efPQ">
             <inputValue xmi:type="uml:InputPin" xmi:id="_M_Hr8LNXEemcwrjxW_efPQ" name="InputPin1" incoming="_M_Hr17NXEemcwrjxW_efPQ">
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_M_Hr8bNXEemcwrjxW_efPQ" value="1"/>
             </inputValue>
           </node>
           <node xmi:type="uml:AcceptEventAction" xmi:id="_M_Hr8rNXEemcwrjxW_efPQ" name="接收环境温度" incoming="_M_Hr2rNXEemcwrjxW_efPQ" outgoing="_M_Hr1rNXEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr87NXEemcwrjxW_efPQ" name="temdetec" incoming="_M_Hr57NXEemcwrjxW_efPQ" outgoing="_M_Hr1bNXEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr9LNXEemcwrjxW_efPQ" name="begainalarming" incoming="_M_Hr2LNXEemcwrjxW_efPQ" outgoing="_M_Hr5LNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr87NXEemcwrjxW_efPQ" name="数据格式化" incoming="_M_Hr57NXEemcwrjxW_efPQ" outgoing="_M_Hr1bNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr9LNXEemcwrjxW_efPQ" name="发出警报" incoming="_M_Hr2LNXEemcwrjxW_efPQ" outgoing="_M_Hr5LNXEemcwrjxW_efPQ"/>
           <node xmi:type="uml:ForkNode" xmi:id="_M_Hr9bNXEemcwrjxW_efPQ" name="ForkNode11" incoming="_M_Hr1rNXEemcwrjxW_efPQ" outgoing="_M_Hr17NXEemcwrjxW_efPQ _M_Hr27NXEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:DecisionNode" xmi:id="_M_Hr9rNXEemcwrjxW_efPQ" name="超过正常值" incoming="_M_Hr1bNXEemcwrjxW_efPQ" outgoing="_M_Hr2LNXEemcwrjxW_efPQ _M_Hr4rNXEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr97NXEemcwrjxW_efPQ" name="datadeal" outgoing="_M_Hr3LNXEemcwrjxW_efPQ">
+          <node xmi:type="uml:DecisionNode" xmi:id="_M_Hr9rNXEemcwrjxW_efPQ" name="温度检测" incoming="_M_Hr1bNXEemcwrjxW_efPQ" outgoing="_M_Hr2LNXEemcwrjxW_efPQ _M_Hr4rNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr97NXEemcwrjxW_efPQ" name="数据处理" outgoing="_M_Hr3LNXEemcwrjxW_efPQ">
             <inputValue xmi:type="uml:InputPin" xmi:id="_M_Hr-LNXEemcwrjxW_efPQ" name="InputPin1" incoming="_M_Hr27NXEemcwrjxW_efPQ">
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_M_Hr-bNXEemcwrjxW_efPQ" value="1"/>
             </inputValue>
           </node>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr-rNXEemcwrjxW_efPQ" name="temdetec" incoming="_M_Hr37NXEemcwrjxW_efPQ" outgoing="_M_Hr4LNXEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr-7NXEemcwrjxW_efPQ" name="set_operator" incoming="_M_Hr5rNXEemcwrjxW_efPQ" outgoing="_M_Hr3bNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr-rNXEemcwrjxW_efPQ" name="调节温度" incoming="_M_Hr37NXEemcwrjxW_efPQ" outgoing="_M_Hr4LNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_M_Hr-7NXEemcwrjxW_efPQ" name="输入" incoming="_M_Hr5rNXEemcwrjxW_efPQ" outgoing="_M_Hr3bNXEemcwrjxW_efPQ"/>
           <node xmi:type="uml:AcceptEventAction" xmi:id="_M_Hr_LNXEemcwrjxW_efPQ" name="operator_setting" incoming="_M_Hr3bNXEemcwrjxW_efPQ" outgoing="_M_Hr3rNXEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:JoinNode" xmi:id="_M_Hr_bNXEemcwrjxW_efPQ" name="JoinNode27" incoming="_M_Hr3LNXEemcwrjxW_efPQ _M_Hr3rNXEemcwrjxW_efPQ" outgoing="_M_Hr37NXEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:SendSignalAction" xmi:id="_M_Hr_rNXEemcwrjxW_efPQ" name="heating" outgoing="_M_Hr4bNXEemcwrjxW_efPQ">
+          <node xmi:type="uml:JoinNode" xmi:id="_M_Hr_bNXEemcwrjxW_efPQ" name="JoinNode27" incoming="_pEBocLUBEem2r7R0gvJ4bQ _0hs3kLT_Eem2r7R0gvJ4bQ" outgoing="_M_Hr37NXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:SendSignalAction" xmi:id="_M_Hr_rNXEemcwrjxW_efPQ" name="heating" outgoing="_E3zjULUAEem2r7R0gvJ4bQ">
             <target xmi:type="uml:InputPin" xmi:id="_M_Hr_7NXEemcwrjxW_efPQ" name="target" incoming="_M_Hr4LNXEemcwrjxW_efPQ">
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M_HsALNXEemcwrjxW_efPQ" value="1"/>
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M_HsAbNXEemcwrjxW_efPQ" value="1"/>
@@ -142,8 +161,16 @@
           </node>
           <node xmi:type="uml:FlowFinalNode" xmi:id="_M_HsArNXEemcwrjxW_efPQ" name="FlowFinalNode31" incoming="_M_Hr4rNXEemcwrjxW_efPQ _M_Hr67NXEemcwrjxW_efPQ"/>
           <node xmi:type="uml:JoinNode" xmi:id="_M_HsA7NXEemcwrjxW_efPQ" name="JoinNode34" incoming="_M_Hr07NXEemcwrjxW_efPQ" outgoing="_M_Hr5bNXEemcwrjxW_efPQ _M_Hr5rNXEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:DecisionNode" xmi:id="_M_HsBLNXEemcwrjxW_efPQ" name="数据验证异常" incoming="_M_Hr1LNXEemcwrjxW_efPQ" outgoing="_M_Hr57NXEemcwrjxW_efPQ _M_Hr6bNXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_M_HsBLNXEemcwrjxW_efPQ" name="数据验证" incoming="_M_Hr1LNXEemcwrjxW_efPQ" outgoing="_M_Hr57NXEemcwrjxW_efPQ _M_Hr6bNXEemcwrjxW_efPQ"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_M_HsBbNXEemcwrjxW_efPQ" name="数据异常处理" incoming="_M_Hr6bNXEemcwrjxW_efPQ" outgoing="_M_Hr67NXEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_gR59cLT_Eem2r7R0gvJ4bQ" name="数据验证" incoming="_M_Hr3LNXEemcwrjxW_efPQ" outgoing="_x8dToLT_Eem2r7R0gvJ4bQ _zDRKsLT_Eem2r7R0gvJ4bQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_ksddMLT_Eem2r7R0gvJ4bQ" name="数据异常处理" incoming="_x8dToLT_Eem2r7R0gvJ4bQ" outgoing="_4UlTULT_Eem2r7R0gvJ4bQ" behavior="_nV3vcLT_Eem2r7R0gvJ4bQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_tFaFILT_Eem2r7R0gvJ4bQ" name="数据格式化" incoming="_zDRKsLT_Eem2r7R0gvJ4bQ" outgoing="_0hs3kLT_Eem2r7R0gvJ4bQ" behavior="_uJIL8LT_Eem2r7R0gvJ4bQ"/>
+          <node xmi:type="uml:FlowFinalNode" xmi:id="_3vV4QLT_Eem2r7R0gvJ4bQ" name="FlowFinalNode52" incoming="_4UlTULT_Eem2r7R0gvJ4bQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_fAOBMLUBEem2r7R0gvJ4bQ" name="设置温度范围" incoming="_M_Hr3rNXEemcwrjxW_efPQ" outgoing="_pEBocLUBEem2r7R0gvJ4bQ _tAvVoLUBEem2r7R0gvJ4bQ" behavior="_gJWzgLUBEem2r7R0gvJ4bQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_iFxc4LUBEem2r7R0gvJ4bQ" name="反馈" incoming="_tAvVoLUBEem2r7R0gvJ4bQ" outgoing="_0dc-0LUBEem2r7R0gvJ4bQ" behavior="_ipRLgLUBEem2r7R0gvJ4bQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_xAB1sLUBEem2r7R0gvJ4bQ" name="显示" incoming="_0dc-0LUBEem2r7R0gvJ4bQ" outgoing="_1F9JQLUBEem2r7R0gvJ4bQ" behavior="_xjnq8LUBEem2r7R0gvJ4bQ"/>
+          <node xmi:type="uml:FlowFinalNode" xmi:id="_zbiO0LUBEem2r7R0gvJ4bQ" name="FlowFinalNode63" incoming="_1F9JQLUBEem2r7R0gvJ4bQ"/>
         </ownedBehavior>
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_688EULNMEemcwrjxW_efPQ" name="isolett_initRealization" client="_U0BfoLDzEemf0rtk8hEUOg" supplier="_LACdELDzEemf0rtk8hEUOg"/>
@@ -154,9 +181,9 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_PcgooLLFEemhGK3bf_l7GA" name="datadeal_initImpl" type="_kLMfILENEemf0rtk8hEUOg"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_QKX0MLLFEemhGK3bf_l7GA" name="temdetec_initImpl" type="_rhR74LENEemf0rtk8hEUOg"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_OiZe4LLHEemhGK3bf_l7GA" name="currentTemDigital" visibility="public" type="_HYTaQLLIEemhGK3bf_l7GA" aggregation="composite"/>
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_fMWGsLNWEemcwrjxW_efPQ" name="Activity10" node="_fMWGxrNWEemcwrjxW_efPQ _fMWGx7NWEemcwrjxW_efPQ _fMWGyLNWEemcwrjxW_efPQ _fMWGy7NWEemcwrjxW_efPQ _fMWGzLNWEemcwrjxW_efPQ _fMWGzbNWEemcwrjxW_efPQ _fMWGzrNWEemcwrjxW_efPQ _fMWGz7NWEemcwrjxW_efPQ _fMWG0LNWEemcwrjxW_efPQ">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_fMWGsLNWEemcwrjxW_efPQ" name="Activity10" node="_fMWGxrNWEemcwrjxW_efPQ _fMWGx7NWEemcwrjxW_efPQ _fMWGyLNWEemcwrjxW_efPQ _fMWGy7NWEemcwrjxW_efPQ _fMWGzLNWEemcwrjxW_efPQ _fMWGzbNWEemcwrjxW_efPQ _fMWGz7NWEemcwrjxW_efPQ _fMWG0LNWEemcwrjxW_efPQ _Rb09MLUDEem2r7R0gvJ4bQ _fL8eILUDEem2r7R0gvJ4bQ">
           <ownedBehavior xmi:type="uml:FunctionBehavior" xmi:id="_fMWGsbNWEemcwrjxW_efPQ" name="FunctionBehavior4"/>
-          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGsrNWEemcwrjxW_efPQ" name="数据验证"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGsrNWEemcwrjxW_efPQ"/>
           <ownedBehavior xmi:type="uml:Interaction" xmi:id="_fMWGs7NWEemcwrjxW_efPQ" name="Interaction10"/>
           <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGtLNWEemcwrjxW_efPQ" name="数据无效故障处理"/>
           <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fMWGtbNWEemcwrjxW_efPQ" name="OpaqueBehavior13"/>
@@ -170,34 +197,44 @@
           <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGvbNWEemcwrjxW_efPQ" target="_fMWGx7NWEemcwrjxW_efPQ" source="_fMWGxrNWEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGvrNWEemcwrjxW_efPQ" target="_fMWGybNWEemcwrjxW_efPQ" source="_fMWGx7NWEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGv7NWEemcwrjxW_efPQ" target="_fMWGy7NWEemcwrjxW_efPQ" source="_fMWGyLNWEemcwrjxW_efPQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGwLNWEemcwrjxW_efPQ" target="_fMWGzLNWEemcwrjxW_efPQ" source="_fMWGy7NWEemcwrjxW_efPQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGwbNWEemcwrjxW_efPQ" target="_fMWGzbNWEemcwrjxW_efPQ" source="_fMWGy7NWEemcwrjxW_efPQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGwrNWEemcwrjxW_efPQ" target="_fMWGzrNWEemcwrjxW_efPQ" source="_fMWGzbNWEemcwrjxW_efPQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGw7NWEemcwrjxW_efPQ" target="_fMWGz7NWEemcwrjxW_efPQ" source="_fMWGzrNWEemcwrjxW_efPQ">
-            <guard xmi:type="uml:OpaqueExpression" xmi:id="_fMWGxLNWEemcwrjxW_efPQ" name="currentTem超过正常值" body="">
-              <type xmi:type="uml:DataType" href="../wk003/wk003.uml#_tGpwQIgmEem7TYMKJXdmUw"/>
-              <language>Natural language</language>
-            </guard>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGwLNWEemcwrjxW_efPQ" target="_fMWGzLNWEemcwrjxW_efPQ" source="_fMWGy7NWEemcwrjxW_efPQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_KgI9cLUDEem2r7R0gvJ4bQ" name="数据验证"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGwbNWEemcwrjxW_efPQ" target="_fMWGzbNWEemcwrjxW_efPQ" source="_fMWGy7NWEemcwrjxW_efPQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_MfBE8LUDEem2r7R0gvJ4bQ" name="数据验证" value="true"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGwrNWEemcwrjxW_efPQ" target="_Rb09MLUDEem2r7R0gvJ4bQ" source="_fMWGzbNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGw7NWEemcwrjxW_efPQ" target="_fMWGz7NWEemcwrjxW_efPQ" source="_Rb09MLUDEem2r7R0gvJ4bQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_ovwWsLUDEem2r7R0gvJ4bQ" name="超过正常值" value="true"/>
           </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_fMWGxbNWEemcwrjxW_efPQ" target="_fMWG0LNWEemcwrjxW_efPQ" source="_fMWGz7NWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_gQx_QLUDEem2r7R0gvJ4bQ" target="_fL8eILUDEem2r7R0gvJ4bQ" source="_Rb09MLUDEem2r7R0gvJ4bQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_rf90gLUDEem2r7R0gvJ4bQ" name="超过正常值"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_gz3eMLUDEem2r7R0gvJ4bQ" target="_fL8eILUDEem2r7R0gvJ4bQ" source="_fMWGzLNWEemcwrjxW_efPQ"/>
           <node xmi:type="uml:InitialNode" xmi:id="_fMWGxrNWEemcwrjxW_efPQ" name="InitialNode1" outgoing="_fMWGvbNWEemcwrjxW_efPQ"/>
           <node xmi:type="uml:AcceptEventAction" xmi:id="_fMWGx7NWEemcwrjxW_efPQ" name="接收温度信号" incoming="_fMWGvbNWEemcwrjxW_efPQ" outgoing="_fMWGvrNWEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_fMWGyLNWEemcwrjxW_efPQ" name="接收验证" outgoing="_fMWGv7NWEemcwrjxW_efPQ" behavior="_fMWGsrNWEemcwrjxW_efPQ">
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_fMWGyLNWEemcwrjxW_efPQ" name="数据处理" outgoing="_fMWGv7NWEemcwrjxW_efPQ" behavior="_fMWGsrNWEemcwrjxW_efPQ">
             <argument xmi:type="uml:InputPin" xmi:id="_fMWGybNWEemcwrjxW_efPQ" name="InputPin1" incoming="_fMWGvrNWEemcwrjxW_efPQ">
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_fMWGyrNWEemcwrjxW_efPQ" value="1"/>
             </argument>
           </node>
-          <node xmi:type="uml:DecisionNode" xmi:id="_fMWGy7NWEemcwrjxW_efPQ" name="" incoming="_fMWGv7NWEemcwrjxW_efPQ" outgoing="_fMWGwLNWEemcwrjxW_efPQ _fMWGwbNWEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_fMWGzLNWEemcwrjxW_efPQ" name="数据无效故障处理" incoming="_fMWGwLNWEemcwrjxW_efPQ" behavior="_fMWGtLNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_fMWGy7NWEemcwrjxW_efPQ" name="数据验证" incoming="_fMWGv7NWEemcwrjxW_efPQ" outgoing="_fMWGwLNWEemcwrjxW_efPQ _fMWGwbNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_fMWGzLNWEemcwrjxW_efPQ" name="数据异常处理" incoming="_fMWGwLNWEemcwrjxW_efPQ" outgoing="_gz3eMLUDEem2r7R0gvJ4bQ" behavior="_fMWGtLNWEemcwrjxW_efPQ"/>
           <node xmi:type="uml:CallBehaviorAction" xmi:id="_fMWGzbNWEemcwrjxW_efPQ" name="数据格式化" incoming="_fMWGwbNWEemcwrjxW_efPQ" outgoing="_fMWGwrNWEemcwrjxW_efPQ" behavior="_fMWGtbNWEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_fMWGzrNWEemcwrjxW_efPQ" name="温度检测" incoming="_fMWGwrNWEemcwrjxW_efPQ" outgoing="_fMWGw7NWEemcwrjxW_efPQ" behavior="_fMWGtrNWEemcwrjxW_efPQ"/>
           <node xmi:type="uml:CallBehaviorAction" xmi:id="_fMWGz7NWEemcwrjxW_efPQ" name="发出警报" incoming="_fMWGw7NWEemcwrjxW_efPQ" outgoing="_fMWGxbNWEemcwrjxW_efPQ" behavior="_fMWGt7NWEemcwrjxW_efPQ"/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_fMWG0LNWEemcwrjxW_efPQ" name="ActivityFinalNode28" incoming="_fMWGxbNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_Rb09MLUDEem2r7R0gvJ4bQ" name="温度检测" incoming="_fMWGwrNWEemcwrjxW_efPQ" outgoing="_fMWGw7NWEemcwrjxW_efPQ _gQx_QLUDEem2r7R0gvJ4bQ"/>
+          <node xmi:type="uml:FlowFinalNode" xmi:id="_fL8eILUDEem2r7R0gvJ4bQ" name="FlowFinalNode30" incoming="_gQx_QLUDEem2r7R0gvJ4bQ _gz3eMLUDEem2r7R0gvJ4bQ"/>
         </ownedBehavior>
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_XVaV8LEBEemf0rtk8hEUOg" name="alarm_initRealization" client="_-Z67ALD7Eemf0rtk8hEUOg" supplier="_7R-5sLD7Eemf0rtk8hEUOg"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_7R-5sLD7Eemf0rtk8hEUOg" name="alarm_init">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_49gcALEDEemf0rtk8hEUOg" name="datadeal_init"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_49gcALEDEemf0rtk8hEUOg" name="datadeal_init">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_pH8YwLT5Eem2r7R0gvJ4bQ" name="dataCheck_init"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_D1O6wLT6Eem2r7R0gvJ4bQ" name="dataFormat_init"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_m4g3ULT6Eem2r7R0gvJ4bQ" name="dataInvalid_init"/>
+        </nestedClassifier>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_yoQKILEDEemf0rtk8hEUOg" name="temdetect_init"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_5TvxwLEDEemf0rtk8hEUOg" name="begainalarming_init"/>
       </packagedElement>
@@ -276,7 +313,7 @@
           <edge xmi:type="uml:ControlFlow" xmi:id="_ptGIqLNWEemcwrjxW_efPQ" target="_ptGIsrNWEemcwrjxW_efPQ" source="_ptGIs7NWEemcwrjxW_efPQ"/>
           <node xmi:type="uml:InitialNode" xmi:id="_ptGIqbNWEemcwrjxW_efPQ" name="InitialNode1" outgoing="_ptGIobNWEemcwrjxW_efPQ"/>
           <node xmi:type="uml:AcceptEventAction" xmi:id="_ptGIqrNWEemcwrjxW_efPQ" name="接收输入" incoming="_ptGIp7NWEemcwrjxW_efPQ" outgoing="_ptGIorNWEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_ptGIq7NWEemcwrjxW_efPQ" name="输入处理" incoming="_ptGIorNWEemcwrjxW_efPQ" outgoing="_ptGIo7NWEemcwrjxW_efPQ">
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_ptGIq7NWEemcwrjxW_efPQ" name="输入" incoming="_ptGIorNWEemcwrjxW_efPQ" outgoing="_ptGIo7NWEemcwrjxW_efPQ">
             <behavior xmi:type="uml:OpaqueBehavior" href="../wk003/wk003.uml#_ngB1MLKHEemoNLpX2qMFxQ"/>
           </node>
           <node xmi:type="uml:SendSignalAction" xmi:id="_ptGIrLNWEemcwrjxW_efPQ" name="发送设置温度范围" outgoing="_ptGIpLNWEemcwrjxW_efPQ">
@@ -333,39 +370,42 @@
         <ownedAttribute xmi:type="uml:Port" xmi:id="_w54y0LLPEemhGK3bf_l7GA" name="feedbackSignal" visibility="public" type="_W7qWQLLPEemhGK3bf_l7GA" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_u3HfQLLOEemhGK3bf_l7GA" name="currentTemDigital" type="_HYTaQLLIEemhGK3bf_l7GA" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_OnpusLM9EemcwrjxW_efPQ" name="lSP_init" type="__NAoQLLREemhGK3bf_l7GA"/>
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_x9i74LNWEemcwrjxW_efPQ" name="thermostat" node="_x9i777NWEemcwrjxW_efPQ _x9i78LNWEemcwrjxW_efPQ _x9i78bNWEemcwrjxW_efPQ _x9i78rNWEemcwrjxW_efPQ _x9i787NWEemcwrjxW_efPQ _x9i79LNWEemcwrjxW_efPQ _x9i79bNWEemcwrjxW_efPQ _x9i79rNWEemcwrjxW_efPQ _x9i797NWEemcwrjxW_efPQ _x9i7-LNWEemcwrjxW_efPQ _x9i7-bNWEemcwrjxW_efPQ _x9i7_bNWEemcwrjxW_efPQ">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_x9i74LNWEemcwrjxW_efPQ" name="thermostat" node="_x9i777NWEemcwrjxW_efPQ _x9i78LNWEemcwrjxW_efPQ _x9i78bNWEemcwrjxW_efPQ _x9i78rNWEemcwrjxW_efPQ _x9i787NWEemcwrjxW_efPQ _x9i79LNWEemcwrjxW_efPQ _x9i79bNWEemcwrjxW_efPQ _x9i79rNWEemcwrjxW_efPQ _x9i797NWEemcwrjxW_efPQ _x9i7-bNWEemcwrjxW_efPQ _x9i7_bNWEemcwrjxW_efPQ _KGw-sLUEEem2r7R0gvJ4bQ _kS8-wLUEEem2r7R0gvJ4bQ _q5J2sLUEEem2r7R0gvJ4bQ _BbuEsLUFEem2r7R0gvJ4bQ _EVDCQLUFEem2r7R0gvJ4bQ">
           <edge xmi:type="uml:ControlFlow" xmi:id="_x9i74bNWEemcwrjxW_efPQ" target="_x9i78LNWEemcwrjxW_efPQ" source="_x9i78rNWEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_x9i74rNWEemcwrjxW_efPQ" target="_x9i78bNWEemcwrjxW_efPQ" source="_x9i78rNWEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_x9i747NWEemcwrjxW_efPQ" target="_x9i78rNWEemcwrjxW_efPQ" source="_x9i777NWEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_x9i75LNWEemcwrjxW_efPQ" target="_x9i79rNWEemcwrjxW_efPQ" source="_x9i787NWEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_x9i75bNWEemcwrjxW_efPQ" target="_x9i787NWEemcwrjxW_efPQ" source="_x9i78LNWEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_x9i75rNWEemcwrjxW_efPQ" target="_x9i79LNWEemcwrjxW_efPQ" source="_x9i79rNWEemcwrjxW_efPQ">
-            <guard xmi:type="uml:LiteralBoolean" xmi:id="_x9i757NWEemcwrjxW_efPQ" name="checked"/>
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_x9i757NWEemcwrjxW_efPQ" name="数据验证"/>
           </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_x9i76LNWEemcwrjxW_efPQ" target="_x9i79bNWEemcwrjxW_efPQ" source="_x9i79rNWEemcwrjxW_efPQ">
-            <guard xmi:type="uml:LiteralBoolean" xmi:id="_x9i76bNWEemcwrjxW_efPQ" name="checked" value="true"/>
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_x9i76bNWEemcwrjxW_efPQ" name="数据验证" value="true"/>
           </edge>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i76rNWEemcwrjxW_efPQ" target="_x9i7-LNWEemcwrjxW_efPQ" source="_x9i79bNWEemcwrjxW_efPQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i767NWEemcwrjxW_efPQ" target="_x9i7-LNWEemcwrjxW_efPQ" source="_x9i78bNWEemcwrjxW_efPQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i77LNWEemcwrjxW_efPQ" target="_x9i797NWEemcwrjxW_efPQ" source="_x9i7-LNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i76rNWEemcwrjxW_efPQ" target="_q5J2sLUEEem2r7R0gvJ4bQ" source="_x9i79bNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i767NWEemcwrjxW_efPQ" target="_kS8-wLUEEem2r7R0gvJ4bQ" source="_x9i78bNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_x9i77LNWEemcwrjxW_efPQ" target="_x9i797NWEemcwrjxW_efPQ" source="_q5J2sLUEEem2r7R0gvJ4bQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_x9i77bNWEemcwrjxW_efPQ" target="_x9i7-bNWEemcwrjxW_efPQ" source="_x9i797NWEemcwrjxW_efPQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_x9i77rNWEemcwrjxW_efPQ" target="_x9i7_bNWEemcwrjxW_efPQ" source="_x9i7-bNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_K_7bULUEEem2r7R0gvJ4bQ" target="_KGw-sLUEEem2r7R0gvJ4bQ" source="_x9i79LNWEemcwrjxW_efPQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ngTEgLUEEem2r7R0gvJ4bQ" target="_q5J2sLUEEem2r7R0gvJ4bQ" source="_kS8-wLUEEem2r7R0gvJ4bQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_DYZz0LUFEem2r7R0gvJ4bQ" target="_BbuEsLUFEem2r7R0gvJ4bQ" source="_kS8-wLUEEem2r7R0gvJ4bQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_FZZbMLUFEem2r7R0gvJ4bQ" target="_EVDCQLUFEem2r7R0gvJ4bQ" source="_BbuEsLUFEem2r7R0gvJ4bQ"/>
           <node xmi:type="uml:InitialNode" xmi:id="_x9i777NWEemcwrjxW_efPQ" name="InitialNode1" outgoing="_x9i747NWEemcwrjxW_efPQ"/>
           <node xmi:type="uml:AcceptEventAction" xmi:id="_x9i78LNWEemcwrjxW_efPQ" name="接收当前温度" incoming="_x9i74bNWEemcwrjxW_efPQ" outgoing="_x9i75bNWEemcwrjxW_efPQ"/>
           <node xmi:type="uml:AcceptEventAction" xmi:id="_x9i78bNWEemcwrjxW_efPQ" name="接收温度范围" incoming="_x9i74rNWEemcwrjxW_efPQ" outgoing="_x9i767NWEemcwrjxW_efPQ"/>
           <node xmi:type="uml:ForkNode" xmi:id="_x9i78rNWEemcwrjxW_efPQ" name="ForkNode4" incoming="_x9i747NWEemcwrjxW_efPQ" outgoing="_x9i74bNWEemcwrjxW_efPQ _x9i74rNWEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_x9i787NWEemcwrjxW_efPQ" name="数据验证" incoming="_x9i75bNWEemcwrjxW_efPQ" outgoing="_x9i75LNWEemcwrjxW_efPQ">
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_x9i787NWEemcwrjxW_efPQ" name="数据处理" incoming="_x9i75bNWEemcwrjxW_efPQ" outgoing="_x9i75LNWEemcwrjxW_efPQ">
             <behavior xmi:type="uml:OpaqueBehavior" href="../wk003/wk003.uml#_7MoGMLKIEemoNLpX2qMFxQ"/>
           </node>
-          <node xmi:type="uml:CallBehaviorAction" xmi:id="_x9i79LNWEemcwrjxW_efPQ" name="数据无效故障处理" incoming="_x9i75rNWEemcwrjxW_efPQ">
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_x9i79LNWEemcwrjxW_efPQ" name="数据异常处理" incoming="_x9i75rNWEemcwrjxW_efPQ" outgoing="_K_7bULUEEem2r7R0gvJ4bQ">
             <behavior xmi:type="uml:OpaqueBehavior" href="../wk003/wk003.uml#_9rf8YLKIEemoNLpX2qMFxQ"/>
           </node>
           <node xmi:type="uml:CallBehaviorAction" xmi:id="_x9i79bNWEemcwrjxW_efPQ" name="数据格式化" incoming="_x9i76LNWEemcwrjxW_efPQ" outgoing="_x9i76rNWEemcwrjxW_efPQ">
             <behavior xmi:type="uml:OpaqueBehavior" href="../wk003/wk003.uml#_BhhywLKJEemoNLpX2qMFxQ"/>
           </node>
-          <node xmi:type="uml:DecisionNode" xmi:id="_x9i79rNWEemcwrjxW_efPQ" name="checked" incoming="_x9i75LNWEemcwrjxW_efPQ" outgoing="_x9i75rNWEemcwrjxW_efPQ _x9i76LNWEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:AcceptEventAction" xmi:id="_x9i797NWEemcwrjxW_efPQ" name="温度调节" incoming="_x9i77LNWEemcwrjxW_efPQ" outgoing="_x9i77bNWEemcwrjxW_efPQ"/>
-          <node xmi:type="uml:MergeNode" xmi:id="_x9i7-LNWEemcwrjxW_efPQ" name="MergeNode17" incoming="_x9i76rNWEemcwrjxW_efPQ _x9i767NWEemcwrjxW_efPQ" outgoing="_x9i77LNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_x9i79rNWEemcwrjxW_efPQ" name="数据验证" incoming="_x9i75LNWEemcwrjxW_efPQ" outgoing="_x9i75rNWEemcwrjxW_efPQ _x9i76LNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_x9i797NWEemcwrjxW_efPQ" name="调节温度" incoming="_x9i77LNWEemcwrjxW_efPQ" outgoing="_x9i77bNWEemcwrjxW_efPQ"/>
           <node xmi:type="uml:SendSignalAction" xmi:id="_x9i7-bNWEemcwrjxW_efPQ" name="发送heating" incoming="_x9i77bNWEemcwrjxW_efPQ" outgoing="_x9i77rNWEemcwrjxW_efPQ">
             <signal xmi:type="uml:Signal" href="../wk003/wk003.uml#_dmB_ULKJEemoNLpX2qMFxQ"/>
             <target xmi:type="uml:InputPin" xmi:id="_x9i7-rNWEemcwrjxW_efPQ" name="target">
@@ -374,6 +414,11 @@
             </target>
           </node>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_x9i7_bNWEemcwrjxW_efPQ" name="ActivityFinalNode23" incoming="_x9i77rNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:FlowFinalNode" xmi:id="_KGw-sLUEEem2r7R0gvJ4bQ" name="FlowFinalNode25" incoming="_K_7bULUEEem2r7R0gvJ4bQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_kS8-wLUEEem2r7R0gvJ4bQ" name="设置温度范围" incoming="_x9i767NWEemcwrjxW_efPQ" outgoing="_ngTEgLUEEem2r7R0gvJ4bQ _DYZz0LUFEem2r7R0gvJ4bQ" behavior="_kxIIgLUEEem2r7R0gvJ4bQ"/>
+          <node xmi:type="uml:JoinNode" xmi:id="_q5J2sLUEEem2r7R0gvJ4bQ" name="JoinNode29" incoming="_ngTEgLUEEem2r7R0gvJ4bQ _x9i76rNWEemcwrjxW_efPQ" outgoing="_x9i77LNWEemcwrjxW_efPQ"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_BbuEsLUFEem2r7R0gvJ4bQ" name="反馈" incoming="_DYZz0LUFEem2r7R0gvJ4bQ" outgoing="_FZZbMLUFEem2r7R0gvJ4bQ" behavior="_CAT_gLUFEem2r7R0gvJ4bQ"/>
+          <node xmi:type="uml:FlowFinalNode" xmi:id="_EVDCQLUFEem2r7R0gvJ4bQ" name="FlowFinalNode31" incoming="_FZZbMLUFEem2r7R0gvJ4bQ"/>
         </ownedBehavior>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_q9kQQLLNEemhGK3bf_l7GA" name="datadeal_init">
@@ -434,7 +479,11 @@
         <nestedClassifier xmi:type="uml:Class" xmi:id="_EXEDULEGEemf0rtk8hEUOg" name="setTemrange_init"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_EygCILEGEemf0rtk8hEUOg" name="temadjust_init"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="__NAoQLLREemhGK3bf_l7GA" name="LSP_init"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_FKE0oLEGEemf0rtk8hEUOg" name="datadeal_init"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_FKE0oLEGEemf0rtk8hEUOg" name="datadeal_init">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_7hTgQbT6Eem2r7R0gvJ4bQ" name="dataCheck_init"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_7hUHUbT6Eem2r7R0gvJ4bQ" name="dataFormat_init"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_7hUuYbT6Eem2r7R0gvJ4bQ" name="dataInvalid_init"/>
+        </nestedClassifier>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_Fi5kULEGEemf0rtk8hEUOg" name="feedback_init"/>
       </packagedElement>
     </packagedElement>
@@ -603,6 +652,30 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_824LALNYEemcwrjxW_efPQ" name="temperatorsensor_init" type="_ZtfAkLEBEemf0rtk8hEUOg" association="_821uwLNYEemcwrjxW_efPQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_uFRBwLNhEemcwrjxW_efPQ" name="Allocate42"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mps0sLT5Eem2r7R0gvJ4bQ" name="dataCheck_init">
+      <packagedElement xmi:type="uml:Class" xmi:id="_rQ96wLT5Eem2r7R0gvJ4bQ" name="dataCheck_initImpl"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_wSvLgLT5Eem2r7R0gvJ4bQ" name="dataCheck_initRealization" client="_rQ96wLT5Eem2r7R0gvJ4bQ" supplier="_pH8YwLT5Eem2r7R0gvJ4bQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_As0YULT6Eem2r7R0gvJ4bQ" name="dataFormat_init">
+      <packagedElement xmi:type="uml:Class" xmi:id="_E3mWsLT6Eem2r7R0gvJ4bQ" name="dataFormat_initImpl"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_IPJhULT6Eem2r7R0gvJ4bQ" name="dataFormat_initRealization" client="_E3mWsLT6Eem2r7R0gvJ4bQ" supplier="_D1O6wLT6Eem2r7R0gvJ4bQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jR-1gLT6Eem2r7R0gvJ4bQ" name="dataInvalid_init">
+      <packagedElement xmi:type="uml:Class" xmi:id="_qctW0LT6Eem2r7R0gvJ4bQ" name="dataInvalid_initImpl"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_yeusgLT6Eem2r7R0gvJ4bQ" name="dataInvalid_initRealization" client="_qctW0LT6Eem2r7R0gvJ4bQ" supplier="_m4g3ULT6Eem2r7R0gvJ4bQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7hTgQLT6Eem2r7R0gvJ4bQ" name="dataCheck2_init">
+      <packagedElement xmi:type="uml:Class" xmi:id="_7hTgQrT6Eem2r7R0gvJ4bQ" name="dataCheck_initImpl"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_7hTgQ7T6Eem2r7R0gvJ4bQ" name="dataCheck_initRealization" client="_7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ _7hTgQrT6Eem2r7R0gvJ4bQ" supplier="_7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ _7hTgQbT6Eem2r7R0gvJ4bQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7hUHULT6Eem2r7R0gvJ4bQ" name="dataFormat2_init">
+      <packagedElement xmi:type="uml:Class" xmi:id="_7hUHUrT6Eem2r7R0gvJ4bQ" name="dataFormat_initImpl"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_7hUHU7T6Eem2r7R0gvJ4bQ" name="dataFormat_initRealization" client="_7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ _7hUHUrT6Eem2r7R0gvJ4bQ" supplier="_7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ _7hUHUbT6Eem2r7R0gvJ4bQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7hUuYLT6Eem2r7R0gvJ4bQ" name="dataInvalid2_init">
+      <packagedElement xmi:type="uml:Class" xmi:id="_7hUuYrT6Eem2r7R0gvJ4bQ" name="dataInvalid_initImpl"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_7hUuY7T6Eem2r7R0gvJ4bQ" name="dataInvalid_initRealization" client="_7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ _7hUuYrT6Eem2r7R0gvJ4bQ" supplier="_7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ _7hUuYbT6Eem2r7R0gvJ4bQ"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wrq5MLB1Eemf0rtk8hEUOg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wsZR8LB1Eemf0rtk8hEUOg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -734,23 +807,31 @@
   <Blocks:Block xmi:id="_8UWHILLTEemhGK3bf_l7GA" base_Class="_8UTq4LLTEemhGK3bf_l7GA"/>
   <DeprecatedElements:FlowPort xmi:id="_QVZkwLNPEemcwrjxW_efPQ" base_Port="_QVTeILNPEemcwrjxW_efPQ" direction="out"/>
   <DeprecatedElements:FlowPort xmi:id="_h51E0LNPEemcwrjxW_efPQ" base_Port="_h5oQgLNPEemcwrjxW_efPQ" direction="in"/>
-  <Blocks:NestedConnectorEnd xmi:id="_CIg9YrNREemcwrjxW_efPQ" base_Element="_CIg9YLNREemcwrjxW_efPQ" propertyPath="_rcva8rNOEemcwrjxW_efPQ" base_ConnectorEnd="_CIg9YLNREemcwrjxW_efPQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_CIhkcLNREemcwrjxW_efPQ" base_Element="_CIg9YbNREemcwrjxW_efPQ" propertyPath="_d94CErNOEemcwrjxW_efPQ" base_ConnectorEnd="_CIg9YbNREemcwrjxW_efPQ"/>
-  <Blocks:BindingConnector xmi:id="_CIlO0LNREemcwrjxW_efPQ" base_Connector="_CIcr8LNREemcwrjxW_efPQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_NBXWQrNREemcwrjxW_efPQ" base_Element="_NBXWQLNREemcwrjxW_efPQ" propertyPath="_rcva8rNOEemcwrjxW_efPQ" base_ConnectorEnd="_NBXWQLNREemcwrjxW_efPQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_NBX9ULNREemcwrjxW_efPQ" base_Element="_NBXWQbNREemcwrjxW_efPQ" propertyPath="_fzuwcrNOEemcwrjxW_efPQ" base_ConnectorEnd="_NBXWQbNREemcwrjxW_efPQ"/>
-  <Blocks:BindingConnector xmi:id="_NBYkYLNREemcwrjxW_efPQ" base_Connector="_NBTr4LNREemcwrjxW_efPQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_bfqy4LNREemcwrjxW_efPQ" base_Element="_bfqL0LNREemcwrjxW_efPQ" propertyPath="_rcva8rNOEemcwrjxW_efPQ" base_ConnectorEnd="_bfqL0LNREemcwrjxW_efPQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_bfsBALNREemcwrjxW_efPQ" base_Element="_bfqL0bNREemcwrjxW_efPQ" propertyPath="_fzuwcrNOEemcwrjxW_efPQ" base_ConnectorEnd="_bfqL0bNREemcwrjxW_efPQ"/>
-  <Blocks:BindingConnector xmi:id="_bfsoELNREemcwrjxW_efPQ" base_Connector="_bfi3ELNREemcwrjxW_efPQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_XHfcQbNSEemcwrjxW_efPQ" base_Element="_XHe1MLNSEemcwrjxW_efPQ" propertyPath="_fJoqkrNOEemcwrjxW_efPQ" base_ConnectorEnd="_XHe1MLNSEemcwrjxW_efPQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_XHfcQrNSEemcwrjxW_efPQ" base_Element="_XHfcQLNSEemcwrjxW_efPQ" propertyPath="_rcva8rNOEemcwrjxW_efPQ" base_ConnectorEnd="_XHfcQLNSEemcwrjxW_efPQ"/>
-  <Blocks:BindingConnector xmi:id="_XHgDULNSEemcwrjxW_efPQ" base_Connector="_XHbK0LNSEemcwrjxW_efPQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_ZonVMbNSEemcwrjxW_efPQ" base_Element="_ZomuILNSEemcwrjxW_efPQ" propertyPath="_fJoqkrNOEemcwrjxW_efPQ" base_ConnectorEnd="_ZomuILNSEemcwrjxW_efPQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_Zon8QLNSEemcwrjxW_efPQ" base_Element="_ZonVMLNSEemcwrjxW_efPQ" propertyPath="_ZnB9orNOEemcwrjxW_efPQ" base_ConnectorEnd="_ZonVMLNSEemcwrjxW_efPQ"/>
   <Blocks:Block xmi:id="_G0hVULNYEemcwrjxW_efPQ" base_Class="_G0e5ELNYEemcwrjxW_efPQ"/>
   <Blocks:Block xmi:id="_Viu2MLNYEemcwrjxW_efPQ" base_Class="_VisZ8LNYEemcwrjxW_efPQ"/>
   <Blocks:Block xmi:id="_yxGN0LNYEemcwrjxW_efPQ" base_Class="_yxDxkLNYEemcwrjxW_efPQ"/>
   <Blocks:Block xmi:id="_49znsLNYEemcwrjxW_efPQ" base_Class="_49xLcLNYEemcwrjxW_efPQ"/>
   <Allocations:Allocate xmi:id="_uFUsILNhEemcwrjxW_efPQ" base_DirectedRelationship="_uFRBwLNhEemcwrjxW_efPQ" base_Abstraction="_uFRBwLNhEemcwrjxW_efPQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_zsQxkLOEEemYM6A6Url0uA" base_Element="_zsO8YLOEEemYM6A6Url0uA" propertyPath="_fJoqkrNOEemcwrjxW_efPQ" base_ConnectorEnd="_zsO8YLOEEemYM6A6Url0uA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_zsSmwLOEEemYM6A6Url0uA" base_Element="_zsPjcLOEEemYM6A6Url0uA" propertyPath="_ZnB9orNOEemcwrjxW_efPQ" base_ConnectorEnd="_zsPjcLOEEemYM6A6Url0uA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_1PL84LOEEemYM6A6Url0uA" base_Element="_1PKuwLOEEemYM6A6Url0uA" propertyPath="_fJoqkrNOEemcwrjxW_efPQ" base_ConnectorEnd="_1PKuwLOEEemYM6A6Url0uA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_1PMj8LOEEemYM6A6Url0uA" base_Element="_1PLV0LOEEemYM6A6Url0uA" propertyPath="_rcva8rNOEemcwrjxW_efPQ" base_ConnectorEnd="_1PLV0LOEEemYM6A6Url0uA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_2qCKQbOEEemYM6A6Url0uA" base_Element="_2qBjMLOEEemYM6A6Url0uA" propertyPath="_rcva8rNOEemcwrjxW_efPQ" base_ConnectorEnd="_2qBjMLOEEemYM6A6Url0uA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_2qDYYLOEEemYM6A6Url0uA" base_Element="_2qCKQLOEEemYM6A6Url0uA" propertyPath="_fzuwcrNOEemcwrjxW_efPQ" base_ConnectorEnd="_2qCKQLOEEemYM6A6Url0uA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_384SMrOEEemYM6A6Url0uA" base_Element="_384SMLOEEemYM6A6Url0uA" propertyPath="_fzuwcrNOEemcwrjxW_efPQ" base_ConnectorEnd="_384SMLOEEemYM6A6Url0uA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_3845QLOEEemYM6A6Url0uA" base_Element="_384SMbOEEemYM6A6Url0uA" propertyPath="_rcva8rNOEemcwrjxW_efPQ" base_ConnectorEnd="_384SMbOEEemYM6A6Url0uA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_49tdELOEEemYM6A6Url0uA" base_Element="_49s2ALOEEemYM6A6Url0uA" propertyPath="_rcva8rNOEemcwrjxW_efPQ" base_ConnectorEnd="_49s2ALOEEemYM6A6Url0uA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_49uEILOEEemYM6A6Url0uA" base_Element="_49s2AbOEEemYM6A6Url0uA" propertyPath="_d94CErNOEemcwrjxW_efPQ" base_ConnectorEnd="_49s2AbOEEemYM6A6Url0uA"/>
+  <Blocks:Block xmi:id="_pIGJwLT5Eem2r7R0gvJ4bQ" base_Class="_pH8YwLT5Eem2r7R0gvJ4bQ"/>
+  <Blocks:Block xmi:id="_rRBlILT5Eem2r7R0gvJ4bQ" base_Class="_rQ96wLT5Eem2r7R0gvJ4bQ"/>
+  <Blocks:Block xmi:id="_D1SlILT6Eem2r7R0gvJ4bQ" base_Class="_D1O6wLT6Eem2r7R0gvJ4bQ"/>
+  <Blocks:Block xmi:id="_E3paALT6Eem2r7R0gvJ4bQ" base_Class="_E3mWsLT6Eem2r7R0gvJ4bQ"/>
+  <Blocks:Block xmi:id="_m4j6oLT6Eem2r7R0gvJ4bQ" base_Class="_m4g3ULT6Eem2r7R0gvJ4bQ"/>
+  <Blocks:Block xmi:id="_qcvzELT6Eem2r7R0gvJ4bQ" base_Class="_qctW0LT6Eem2r7R0gvJ4bQ"/>
+  <Blocks:Block xmi:id="_7hXxsLT6Eem2r7R0gvJ4bQ" base_Class="_7hTgQbT6Eem2r7R0gvJ4bQ"/>
+  <Blocks:Block xmi:id="_7hY_0LT6Eem2r7R0gvJ4bQ" base_Class="_7hTgQrT6Eem2r7R0gvJ4bQ"/>
+  <Blocks:Block xmi:id="_7hZm4LT6Eem2r7R0gvJ4bQ" base_Class="_7hUHUbT6Eem2r7R0gvJ4bQ"/>
+  <Blocks:Block xmi:id="_7ha1ALT6Eem2r7R0gvJ4bQ" base_Class="_7hUHUrT6Eem2r7R0gvJ4bQ"/>
+  <Blocks:Block xmi:id="_7hbcELT6Eem2r7R0gvJ4bQ" base_Class="_7hUuYbT6Eem2r7R0gvJ4bQ"/>
+  <Blocks:Block xmi:id="_7hcDILT6Eem2r7R0gvJ4bQ" base_Class="_7hUuYrT6Eem2r7R0gvJ4bQ"/>
 </xmi:XMI>

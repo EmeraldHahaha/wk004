@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="GB2312" standalone="no"?>
 <AllocationTable>
-<Allocation actionName="调用响铃" blockName="begainalarming_init"/>
+<Allocation actionName="发出警报" blockName="begainalarming_init"/>
 <Allocation actionName="数据处理" blockName="datadeal_init"/>
 <Allocation actionName="数据处理" blockName="datadeal_init"/>
-<Allocation actionName="温度调节" blockName="temadjust_init"/>
-<Allocation actionName="硬件故障" blockName="heatsource_init"/>
-<Allocation actionName="硬件故障" blockName="temperatorsensor_init"/>
+<Allocation actionName="调节温度" blockName="temadjust_init"/>
+<Allocation actionName="热源故障" blockName="heatsource_init"/>
+<Allocation actionName="温度传感器故障" blockName="temperatorsensor_init"/>
+<Allocation actionName="检测环境温度" blockName="temperatorsensor_init"/>
+<Allocation actionName="数据验证" blockName="dataCheck_init"/>
+<Allocation actionName="数据格式化" blockName="dataFormat_init"/>
+<Allocation actionName="数据异常处理" blockName="dataInvalid_init"/>
+<Allocation actionName="温度检测" blockName="temdetec_init"/>
+<Allocation actionName="发出警报" blockName="begainalarming_init"/>
+<Allocation actionName="输入" blockName="inputsetting_init"/>
+<Allocation actionName="数据处理" blockName="datadeal_init"/>
+<Allocation actionName="数据验证" blockName="dataCheck_init"/>
+<Allocation actionName="数据格式化" blockName="dataFormat_init"/>
+<Allocation actionName="数据异常处理" blockName="dataInvalid_init"/>
+<Allocation actionName="调节温度" blockName="temadjust_init"/>
+<Allocation actionName="设置温度范围" blockName="setTemrange_init"/>
+<Allocation actionName="反馈" blockName="feedback_init"/>
+<Allocation actionName="显示" blockName="show_init"/>
 </AllocationTable>
